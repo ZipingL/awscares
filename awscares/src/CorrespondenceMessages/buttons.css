@@ -1,0 +1,4582 @@
+
+
+    
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_button-trigger_18eso_14emu_97
+      > .awsui_arrow_18eso_14emu_97:not(#\9) {
+      transition: transform var(--motion-duration-rotate-180-ofa1ir, 135ms)
+        var(
+          --motion-easing-rotate-180-3rbbga,
+          cubic-bezier(0.165, 0.84, 0.44, 1)
+        );
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .awsui_button-trigger_18eso_14emu_97
+        > .awsui_arrow_18eso_14emu_97:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      .awsui_button-trigger_18eso_14emu_97
+      > .awsui_arrow_18eso_14emu_97:not(#\9),
+    .awsui-mode-entering
+      .awsui_button-trigger_18eso_14emu_97
+      > .awsui_arrow_18eso_14emu_97:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_button-trigger_18eso_14emu_97:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      position: relative;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-scaled-xxs-95dhkm, 4px)
+        var(--space-field-horizontal-z3i1c8, 8px);
+      background-color: var(--color-background-input-default-ewlytp, #ffffff);
+      border-radius: var(--border-radius-input-fterib, 2px);
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-input-default-94d18j, #aab7b8);
+      min-height: var(--size-vertical-input-ikahdk, 32px);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_has-caret_18eso_14emu_135:not(#\9) {
+      padding-right: var(--space-field-icon-offset-alfd6o, 32px);
+    }
+    .awsui_button-trigger_18eso_14emu_97
+      > .awsui_placeholder_18eso_14emu_138:not(#\9) {
+      color: var(--color-text-input-placeholder-rtvjp5, #687078);
+      font-style: italic;
+    }
+    .awsui_button-trigger_18eso_14emu_97
+      > .awsui_arrow_18eso_14emu_97:not(#\9) {
+      position: absolute;
+      right: var(--space-field-horizontal-z3i1c8, 8px);
+      top: calc(50% - var(--font-body-m-line-height-i7xxvv, 22px) / 2);
+      color: var(--color-text-button-inline-icon-default-qhj7jl, #545b64);
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):hover
+      > .awsui_arrow_18eso_14emu_97 {
+      color: var(--color-text-button-inline-icon-hover-84mkuo, #16191f);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_pressed_18eso_14emu_151
+      > .awsui_arrow_18eso_14emu_97:not(#\9) {
+      transform: rotate(-180deg);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_disabled_18eso_14emu_154:not(#\9) {
+      background-color: var(
+        --color-background-input-disabled-5vlksk,
+        #eaeded
+      );
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-input-disabled-ek5o0x, #eaeded);
+      color: var(--color-text-input-disabled-zfb02z, #879596);
+      cursor: auto;
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_disabled_18eso_14emu_154
+      > .awsui_arrow_18eso_14emu_97:not(#\9) {
+      color: var(--color-text-button-inline-icon-disabled-sesloi, #aab7b8);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_disabled_18eso_14emu_154.awsui_in-filtering-token_18eso_14emu_163:not(#\9) {
+      border-color: var(--color-border-control-disabled-zgidl5, #d5dbdb);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_disabled_18eso_14emu_154
+      > .awsui_placeholder_18eso_14emu_138:not(#\9) {
+      color: var(--color-text-input-placeholder-disabled-60yf1a, #687078);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_read-only_18eso_14emu_169:not(#\9) {
+      background-color: var(--color-background-input-default-ewlytp, #ffffff);
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-input-disabled-ek5o0x, #eaeded);
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):focus {
+      outline: none;
+      text-decoration: none;
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163)[data-awsui-focus-visible="true"]:focus {
+      outline: 2px dotted transparent;
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-item-focused-n5kd8g, #0073bb);
+      border-radius: var(--border-radius-input-fterib, 2px);
+      box-shadow: 0 0 0
+        var(--border-control-focus-ring-shadow-spread-glnuoy, 1px)
+        var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163):invalid {
+      box-shadow: none;
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163).awsui_invalid_18eso_14emu_186,
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163).awsui_invalid_18eso_14emu_186:focus {
+      color: var(--color-text-status-error-jer77f, #d13212);
+      border-color: var(--color-text-status-error-jer77f, #d13212);
+      padding-left: calc(
+        var(--space-field-horizontal-z3i1c8, 8px) -
+          (
+            var(--border-invalid-width-glmng5, 4px) -
+              var(--border-field-width-y6x4sn, 1px)
+          )
+      );
+      border-left-width: var(--border-invalid-width-glmng5, 4px);
+    }
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163).awsui_invalid_18eso_14emu_186:focus,
+    .awsui_button-trigger_18eso_14emu_97:not(#\9):not(.awsui_in-filtering-token_18eso_14emu_163).awsui_invalid_18eso_14emu_186:focus:focus {
+      box-shadow: 0 0 0
+        var(--border-control-invalid-focus-ring-shadow-spread-6t5p47, 1px)
+        var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_in-filtering-token_18eso_14emu_163:not(#\9) {
+      border-color: var(--color-border-item-selected-pr9yuf, #00a1c9);
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      height: 100%;
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_in-filtering-token_18eso_14emu_163[data-awsui-focus-visible="true"]:not(#\9):focus {
+      position: relative;
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_in-filtering-token_18eso_14emu_163[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: calc(
+        var(
+            --space-filtering-token-operation-select-focus-outline-gutter-0nruvp,
+            0px
+          ) - 1px
+      );
+    }
+    .awsui_button-trigger_18eso_14emu_97.awsui_in-filtering-token_18eso_14emu_163[data-awsui-focus-visible="true"]:not(#\9):focus::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(
+        -1 * var(--space-filtering-token-operation-select-focus-outline-gutter-0nruvp, 0px)
+      );
+      top: calc(
+        -1 * var(--space-filtering-token-operation-select-focus-outline-gutter-0nruvp, 0px)
+      );
+      width: calc(
+        100% + 2 *
+          var(
+            --space-filtering-token-operation-select-focus-outline-gutter-0nruvp,
+            0px
+          )
+      );
+      height: calc(
+        100% + 2 *
+          var(
+            --space-filtering-token-operation-select-focus-outline-gutter-0nruvp,
+            0px
+          )
+      );
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_option_1p2cx_1vcs9_97:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      color: inherit;
+    }
+    .awsui_option_1p2cx_1vcs9_97:not(#\9):not(.awsui_disabled_1p2cx_1vcs9_113) {
+      cursor: inherit;
+    }
+    .awsui_option_1p2cx_1vcs9_97.awsui_parent_1p2cx_1vcs9_116:not(#\9) {
+      font-weight: bold;
+    }
+    .awsui_option_1p2cx_1vcs9_97.awsui_parent_1p2cx_1vcs9_116:not(#\9):not(.awsui_disabled_1p2cx_1vcs9_113) {
+      color: var(--color-text-dropdown-group-label-45mv5a, #545b64);
+    }
+
+    .awsui_content_1p2cx_1vcs9_123:not(#\9) {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .awsui_label-content_1p2cx_1vcs9_130:not(#\9) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .awsui_label_1p2cx_1vcs9_130:not(#\9),
+    .awsui_tag_1p2cx_1vcs9_137:not(#\9),
+    .awsui_label-tag_1p2cx_1vcs9_138:not(#\9) {
+      min-width: 0;
+      -ms-word-break: break-all;
+      word-break: break-word;
+    }
+
+    .awsui_label_1p2cx_1vcs9_130:not(#\9),
+    .awsui_tag_1p2cx_1vcs9_137:not(#\9) {
+      flex-wrap: wrap;
+    }
+
+    .awsui_label-prefix_1p2cx_1vcs9_149:not(#\9) {
+      font-weight: 700;
+    }
+
+    .awsui_label-tag_1p2cx_1vcs9_138:not(#\9) {
+      padding-left: var(--space-s-hv8c1d, 12px);
+      flex: auto;
+      text-align: right;
+    }
+    .awsui_label-tag_1p2cx_1vcs9_138:not(#\9):empty {
+      display: none;
+    }
+
+    .awsui_tags_1p2cx_1vcs9_162:not(#\9),
+    .awsui_description_1p2cx_1vcs9_163:not(#\9) {
+      font-size: var(--font-body-s-size-ukw2p9, 12px);
+      line-height: var(--font-body-s-line-height-kdsbrl, 16px);
+      letter-spacing: var(--font-body-s-letter-spacing-p88gax, normal);
+      color: var(--color-text-dropdown-item-secondary-8hw5go, #687078);
+      flex-wrap: wrap;
+    }
+
+    .awsui_tags_1p2cx_1vcs9_162:not(#\9) {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .awsui_tag_1p2cx_1vcs9_137:not(#\9):not(:last-child) {
+      padding-right: var(--space-m-17eucw, 16px);
+    }
+
+    .awsui_icon_1p2cx_1vcs9_180:not(#\9) {
+      padding-right: var(--space-xs-rsr2qu, 8px);
+      align-content: center;
+      display: flex;
+      flex-shrink: 0;
+    }
+
+    .awsui_icon-size-big_1p2cx_1vcs9_187:not(#\9) {
+      padding-top: var(--space-xxxs-k2w98v, 2px);
+    }
+
+    .awsui_filtering-match-highlight_1p2cx_1vcs9_191:not(#\9) {
+      background-color: var(
+        --color-background-dropdown-item-filter-match-yd6eaz,
+        #f1faff
+      );
+      color: var(--color-text-dropdown-item-filter-match-4ejjcu, #0073bb);
+      font-weight: bold;
+    }
+
+    .awsui_disabled_1p2cx_1vcs9_113:not(#\9) {
+      color: var(--color-text-dropdown-item-disabled-dgi2f4, #aab7b8);
+      pointer-events: none;
+    }
+    .awsui_disabled_1p2cx_1vcs9_113
+      > .awsui_content_1p2cx_1vcs9_123
+      > .awsui_tags_1p2cx_1vcs9_162:not(#\9),
+    .awsui_disabled_1p2cx_1vcs9_113
+      > .awsui_content_1p2cx_1vcs9_123
+      > .awsui_description_1p2cx_1vcs9_163:not(#\9) {
+      color: currentColor;
+    }
+
+    .awsui_trigger-variant_1p2cx_1vcs9_206:not(#\9) {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_options-list_19gcf_11qov_93:not(#\9) {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      border: none;
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      white-space: inherit;
+      overflow-y: auto;
+      flex: 1 1 auto;
+      min-height: 0;
+      border-radius: var(--border-radius-dropdown-0c284d, 0px);
+    }
+
+    .awsui_decrease-top-margin_19gcf_11qov_113:not(#\9) {
+      margin-top: -1px;
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_selectable-item_15o6u_1ohxk_93:not(#\9) {
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      position: relative;
+      list-style: none;
+      z-index: 1;
+      border: var(--border-divider-list-width-hacikr, 1px) solid transparent;
+      border-top-color: var(
+        --color-border-dropdown-item-default-tcqivq,
+        #eaeded
+      );
+      border-bottom-color: var(
+        --color-border-dropdown-item-default-tcqivq,
+        #eaeded
+      );
+      background-color: var(
+        --color-background-dropdown-item-default-9xpo3g,
+        #ffffff
+      );
+      color: var(--color-text-dropdown-item-default-ki8ao1, #16191f);
+      border-left-width: 0;
+      border-right-width: 0;
+      padding: calc(
+          var(--space-xxs-ynfts5, 4px) +
+            (
+              var(--border-item-width-yvnixs, 1px) -
+                var(--border-divider-list-width-hacikr, 1px)
+            )
+        )
+        calc(
+          var(--space-field-horizontal-z3i1c8, 8px) +
+            var(--border-item-width-yvnixs, 1px)
+        );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_pad-bottom_15o6u_1ohxk_113:not(#\9) {
+      padding-bottom: calc(
+        calc(
+            var(--space-xxs-ynfts5, 4px) +
+              (
+                var(--border-item-width-yvnixs, 1px) -
+                  var(--border-divider-list-width-hacikr, 1px)
+              )
+          ) + var(--space-xxxs-k2w98v, 2px)
+      );
+      border-bottom-color: transparent;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93:not(#\9):not(:first-child) {
+      margin-top: calc(-1 * var(--border-item-width-yvnixs, 1px));
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_has-background_15o6u_1ohxk_122:not(#\9) {
+      background-color: var(
+        --color-background-dropdown-item-hover-hgdj8r,
+        #f2f3f3
+      );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_highlighted_15o6u_1ohxk_125:not(#\9),
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125:not(#\9) {
+      color: var(--color-text-dropdown-item-highlighted-90ve2t, #16191f);
+      border-width: var(--border-item-width-yvnixs, 1px);
+      border-radius: var(--border-radius-item-wjpc1f, 0px);
+      padding: var(--space-xxs-ynfts5, 4px)
+        var(--space-field-horizontal-z3i1c8, 8px);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_highlighted_15o6u_1ohxk_125.awsui_pad-bottom_15o6u_1ohxk_113:not(#\9),
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125.awsui_pad-bottom_15o6u_1ohxk_113:not(#\9) {
+      padding-bottom: calc(
+        var(--space-xxs-ynfts5, 4px) + var(--space-xxxs-k2w98v, 2px)
+      );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_highlighted_15o6u_1ohxk_125:not(#\9) {
+      z-index: 2;
+      background-color: var(
+        --color-background-dropdown-item-hover-hgdj8r,
+        #f2f3f3
+      );
+      border-color: var(--color-border-dropdown-item-hover-d32f3f, #879596);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_highlighted_15o6u_1ohxk_125.awsui_disabled_15o6u_1ohxk_139:not(#\9) {
+      color: var(--color-text-dropdown-item-dimmed-rjvzsf, #aab7b8);
+      border-color: var(
+        --color-border-dropdown-item-dimmed-hover-znavol,
+        #879596
+      );
+      background-color: var(
+        --color-background-dropdown-item-dimmed-qw48ma,
+        transparent
+      );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125:not(#\9) {
+      background-color: var(
+        --color-background-dropdown-item-selected-w7iegd,
+        #f1faff
+      );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125.awsui_next-item-selected_15o6u_1ohxk_147:not(#\9) {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125
+      + .awsui_selectable-item_15o6u_1ohxk_93.awsui_selected_15o6u_1ohxk_125:not(#\9) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_highlighted_15o6u_1ohxk_125.awsui_is-keyboard_15o6u_1ohxk_155:not(#\9) {
+      border-color: var(--color-border-item-focused-n5kd8g, #0073bb);
+      box-shadow: inset 0 0 0
+        var(--border-control-focus-ring-shadow-spread-glnuoy, 1px)
+        var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_parent_15o6u_1ohxk_159:not(#\9) {
+      font-weight: bold;
+      color: var(--color-text-dropdown-group-label-45mv5a, #545b64);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_parent_15o6u_1ohxk_159:not(#\9):not(.awsui_interactiveGroups_15o6u_1ohxk_163) {
+      border-top-color: var(--color-border-dropdown-group-lane4t, #eaeded);
+      padding: var(--space-xs-rsr2qu, 8px);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_parent_15o6u_1ohxk_159.awsui_interactiveGroups_15o6u_1ohxk_163:not(#\9) {
+      padding: calc(
+          var(--space-xs-rsr2qu, 8px) +
+            (
+              var(--border-item-width-yvnixs, 1px) -
+                var(--border-divider-list-width-hacikr, 1px)
+            )
+        )
+        calc(
+          var(--space-field-horizontal-z3i1c8, 8px) +
+            var(--border-item-width-yvnixs, 1px)
+        );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_parent_15o6u_1ohxk_159.awsui_interactiveGroups_15o6u_1ohxk_163.awsui_highlighted_15o6u_1ohxk_125:not(#\9),
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_parent_15o6u_1ohxk_159.awsui_interactiveGroups_15o6u_1ohxk_163.awsui_selected_15o6u_1ohxk_125:not(#\9) {
+      padding: var(--space-xs-rsr2qu, 8px)
+        var(--space-field-horizontal-z3i1c8, 8px);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_child_15o6u_1ohxk_175:not(#\9) {
+      padding-left: calc(
+        var(--space-xxl-2nvmf1, 32px) + var(--border-item-width-yvnixs, 1px)
+      );
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_child_15o6u_1ohxk_175.awsui_highlighted_15o6u_1ohxk_125:not(#\9),
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_child_15o6u_1ohxk_175.awsui_selected_15o6u_1ohxk_125:not(#\9) {
+      padding-left: var(--space-xxl-2nvmf1, 32px);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_disabled_15o6u_1ohxk_139:not(#\9) {
+      color: var(--color-text-dropdown-item-disabled-dgi2f4, #aab7b8);
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93:not(#\9):not(.awsui_disabled_15o6u_1ohxk_139):not(.awsui_parent_15o6u_1ohxk_159) {
+      cursor: pointer;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_interactiveGroups_15o6u_1ohxk_163:not(#\9):not(.awsui_disabled_15o6u_1ohxk_139) {
+      cursor: pointer;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_virtual_15o6u_1ohxk_190:not(#\9) {
+      position: absolute;
+      top: var(--border-dropdown-virtual-offset-width-4yuah4, 0px);
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .awsui_selectable-item_15o6u_1ohxk_93.awsui_virtual_15o6u_1ohxk_190:not(#\9):first-of-type:not(.awsui_selected_15o6u_1ohxk_125, .awsui_highlighted_15o6u_1ohxk_125) {
+      border-top-color: var(--color-border-dropdown-item-top-3kvhpl, #eaeded);
+    }
+
+    .awsui_measure-strut_15o6u_1ohxk_201:not(#\9) {
+      position: absolute;
+      pointer-events: none;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      padding-top: var(--border-divider-list-width-hacikr, 1px);
+    }
+    .awsui_measure-strut-first_15o6u_1ohxk_210:not(#\9) {
+      padding-bottom: var(--border-divider-list-width-hacikr, 1px);
+    }
+
+    .awsui_screenreader-content_15o6u_1ohxk_214:not(#\9) {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+    }
+
+    .awsui_option-content_15o6u_1ohxk_220:not(#\9) {
+      /* used in test-utils */
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_1afi9_1h2f4_93:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+    }
+    .awsui_root_1afi9_1h2f4_93:not(#\9):not(.awsui_hidden_1afi9_1h2f4_103) {
+      border-top: var(--border-divider-list-width-hacikr, 1px) solid
+        var(--color-border-dropdown-item-default-tcqivq, #eaeded);
+    }
+    .awsui_root_1afi9_1h2f4_93:not(#\9):not(.awsui_hidden_1afi9_1h2f4_103).awsui_no-items_1afi9_1h2f4_106 {
+      border-top: var(--border-divider-list-width-hacikr, 1px) solid
+        var(--color-border-dropdown-item-top-3kvhpl, #eaeded);
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_12hwc_1ej6r_5:not(#\9) {
+      width: 100%;
+    }
+
+    .awsui_layout-strut_12hwc_1ej6r_9:not(#\9) {
+      width: 100%;
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+
+    .awsui_dropdown-footer_12hwc_1ej6r_15:not(#\9) {
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .awsui_list-bottom_12hwc_1ej6r_20:not(#\9) {
+      /* used in unit-tests */
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_arrow_xjuzf_noile_185:not(#\9) {
+      width: 20px;
+      height: 10px;
+    }
+    .awsui_arrow-outer_xjuzf_noile_189:not(#\9),
+    .awsui_arrow-inner_xjuzf_noile_189:not(#\9) {
+      position: absolute;
+      overflow: hidden;
+      width: 20px;
+      height: 10px;
+      top: 0;
+      left: 0;
+    }
+    .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-inner_xjuzf_noile_189:not(#\9)::after {
+      content: "";
+      box-sizing: border-box;
+      display: inline-block;
+      position: absolute;
+      border-radius: 2px 0 0 0;
+      bottom: 0;
+      left: 0;
+      width: 14px;
+      height: 14px;
+      transform: rotate(45deg);
+      transform-origin: 0 100%;
+    }
+    .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after {
+      background-color: var(--color-border-popover-jq2u63, #d5dbdb);
+    }
+    .awsui_arrow-inner_xjuzf_noile_189:not(#\9) {
+      top: 2px;
+    }
+    .awsui_arrow-inner_xjuzf_noile_189:not(#\9)::after {
+      border-radius: 1px 0 0 0;
+      background-color: var(--color-background-popover-g6qj89, #ffffff);
+    }
+    .awsui_arrow-position-right-top_xjuzf_noile_220
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-right-bottom_xjuzf_noile_220
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after {
+      box-shadow: -0.71px 0.71px 4px -2px var(--color-shadow-default-94w2kz, rgba(0, 28, 36, 0.5));
+    }
+    .awsui_arrow-position-left-top_xjuzf_noile_223
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-left-bottom_xjuzf_noile_223
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after {
+      box-shadow: 0.71px -0.71px 4px -2px
+        var(--color-shadow-default-94w2kz, rgba(0, 28, 36, 0.5));
+    }
+    .awsui_arrow-position-top-center_xjuzf_noile_226
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-top-right_xjuzf_noile_226
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-top-left_xjuzf_noile_226
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-top-responsive_xjuzf_noile_226
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after {
+      box-shadow: -0.71px -0.71px 4px -2px
+        var(--color-shadow-default-94w2kz, rgba(0, 28, 36, 0.5));
+    }
+    .awsui_arrow-position-bottom-center_xjuzf_noile_229
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-bottom-right_xjuzf_noile_229
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-bottom-left_xjuzf_noile_229
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after,
+    .awsui_arrow-position-bottom-responsive_xjuzf_noile_229
+      > .awsui_arrow-outer_xjuzf_noile_189:not(#\9)::after {
+      box-shadow: 0.71px 0.71px 4px -2px var(--color-shadow-default-94w2kz, rgba(0, 28, 36, 0.5));
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_body_xjuzf_noile_325:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      word-wrap: break-word;
+      max-width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-radius: var(--border-radius-popover-5z2f35, 2px);
+      padding: var(--space-s-hv8c1d, 12px) var(--space-m-17eucw, 16px);
+      background-color: var(--color-background-popover-g6qj89, #ffffff);
+      box-shadow: var(
+        --shadow-popover-r85x77,
+        0px 1px 4px -2px rgba(0, 28, 36, 0.5)
+      );
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-popover-jq2u63, #d5dbdb);
+    }
+    .awsui_body-overflow-visible_xjuzf_noile_344:not(#\9) {
+      overflow: visible;
+    }
+
+    .awsui_variant-annotation_xjuzf_noile_348:not(#\9) {
+      background-color: var(--color-background-status-info-yq3r41, #f1faff);
+      border-color: var(--color-border-status-info-0iedcr, #0073bb);
+    }
+
+    .awsui_body-size-small_xjuzf_noile_353:not(#\9) {
+      max-width: 210px;
+    }
+    .awsui_body-size-small_xjuzf_noile_353.awsui_fixed-width_xjuzf_noile_356:not(#\9) {
+      width: 210px;
+    }
+
+    .awsui_body-size-medium_xjuzf_noile_360:not(#\9) {
+      max-width: 310px;
+    }
+    .awsui_body-size-medium_xjuzf_noile_360.awsui_fixed-width_xjuzf_noile_356:not(#\9) {
+      width: 310px;
+    }
+
+    .awsui_body-size-large_xjuzf_noile_367:not(#\9) {
+      max-width: 480px;
+    }
+    @media (max-width: 480px) {
+      .awsui_body-size-large_xjuzf_noile_367:not(#\9) {
+        max-width: 310px;
+      }
+    }
+    .awsui_body-size-large_xjuzf_noile_367.awsui_fixed-width_xjuzf_noile_356:not(#\9) {
+      width: 480px;
+    }
+
+    .awsui_has-dismiss_xjuzf_noile_379:not(#\9) {
+      display: flex;
+      align-items: baseline;
+    }
+
+    .awsui_dismiss_xjuzf_noile_384:not(#\9) {
+      margin: calc(
+          -1 * (var(--space-scaled-xxs-95dhkm, 4px) +
+                var(--border-field-width-y6x4sn, 1px))
+        )
+        calc(
+          -1 * (var(--space-xxs-ynfts5, 4px) +
+                var(--border-field-width-y6x4sn, 1px))
+        );
+      margin-left: 0;
+      flex: 0 0 auto;
+      order: 1;
+    }
+
+    .awsui_dismiss-control_xjuzf_noile_391:not(#\9) {
+      /* used in test-utils */
+    }
+
+    .awsui_header-row_xjuzf_noile_395:not(#\9) {
+      margin-bottom: var(--space-xs-rsr2qu, 8px);
+    }
+
+    .awsui_header_xjuzf_noile_395:not(#\9) {
+      word-wrap: break-word;
+      max-width: 100%;
+      overflow: hidden;
+      font-size: var(--font-heading-xs-size-j82aha, 16px);
+      line-height: var(--font-heading-xs-line-height-tf278d, 20px);
+      font-weight: var(--font-heading-xs-weight-5hfvig, 400);
+      flex: 1 1 auto;
+      /* stylelint-disable selector-max-type */
+      /* stylelint-enable selector-max-type */
+    }
+    .awsui_header_xjuzf_noile_395 > h2:not(#\9) {
+      font-size: var(--font-heading-xs-size-j82aha, 16px);
+      line-height: var(--font-heading-xs-line-height-tf278d, 20px);
+      font-weight: var(--font-heading-xs-weight-5hfvig, 400);
+      display: inline;
+    }
+
+    .awsui_content_xjuzf_noile_417:not(#\9) {
+      word-wrap: break-word;
+      max-width: 100%;
+      overflow: hidden;
+      color: var(--color-text-body-secondary-u912t7, #545b64);
+      flex: 1 1 auto;
+    }
+    .awsui_content-overflow-visible_xjuzf_noile_424:not(#\9) {
+      overflow: visible;
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_container_xjuzf_noile_436:not(#\9) {
+      display: inline-block;
+      position: fixed;
+      top: -9999px;
+      left: -9999px;
+      z-index: 2000;
+    }
+
+    .awsui_container-arrow_xjuzf_noile_444:not(#\9) {
+      position: absolute;
+      display: inline-block;
+    }
+    .awsui_container-arrow-position-right-top_xjuzf_noile_448:not(#\9),
+    .awsui_container-arrow-position-right-bottom_xjuzf_noile_448:not(#\9) {
+      transform: rotate(-90deg);
+      transform-origin: 0 100%;
+    }
+    .awsui_container-arrow-position-right-top_xjuzf_noile_448:not(#\9) {
+      top: calc(12px + 10px);
+      left: 0;
+    }
+    .awsui_container-arrow-position-right-bottom_xjuzf_noile_448:not(#\9) {
+      bottom: 12px;
+      left: 0;
+    }
+    .awsui_container-arrow-position-left-top_xjuzf_noile_460:not(#\9),
+    .awsui_container-arrow-position-left-bottom_xjuzf_noile_460:not(#\9) {
+      transform: rotate(90deg);
+      transform-origin: 100% 100%;
+    }
+    .awsui_container-arrow-position-left-top_xjuzf_noile_460:not(#\9) {
+      top: calc(12px + 10px);
+      right: 0;
+    }
+    .awsui_container-arrow-position-left-bottom_xjuzf_noile_460:not(#\9) {
+      bottom: 12px;
+      right: 0;
+    }
+    .awsui_container-arrow-position-top-center_xjuzf_noile_472:not(#\9),
+    .awsui_container-arrow-position-top-right_xjuzf_noile_472:not(#\9),
+    .awsui_container-arrow-position-top-left_xjuzf_noile_472:not(#\9),
+    .awsui_container-arrow-position-top-responsive_xjuzf_noile_472:not(#\9) {
+      transform: rotate(180deg);
+      transform-origin: 50% 50%;
+    }
+    .awsui_container-arrow-position-top-center_xjuzf_noile_472:not(#\9) {
+      bottom: -10px;
+      left: calc(50% - 10px);
+    }
+    .awsui_container-arrow-position-top-right_xjuzf_noile_472:not(#\9) {
+      bottom: -10px;
+      left: 12px;
+    }
+    .awsui_container-arrow-position-top-left_xjuzf_noile_472:not(#\9) {
+      bottom: -10px;
+      left: calc(100% - 20px - 12px);
+    }
+    .awsui_container-arrow-position-bottom-center_xjuzf_noile_488:not(#\9) {
+      top: -10px;
+      left: calc(50% - 10px);
+    }
+    .awsui_container-arrow-position-bottom-right_xjuzf_noile_492:not(#\9) {
+      top: -10px;
+      left: 12px;
+    }
+    .awsui_container-arrow-position-bottom-left_xjuzf_noile_496:not(#\9) {
+      top: -10px;
+      left: calc(100% - 20px - 12px);
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_container_xjuzf_noile_436:not(#\9) {
+      animation: awsui_awsui-motion-fade-in_xjuzf_noile_1
+        var(--motion-duration-show-paced-7wspqf, 180ms)
+        var(--motion-easing-show-paced-wj4ybn, ease-out);
+    }
+    @keyframes awsui_awsui-motion-fade-in_xjuzf_noile_1 {
+      from {
+        opacity: 0.2;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .awsui_container_xjuzf_noile_436:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled .awsui_container_xjuzf_noile_436:not(#\9),
+    .awsui-mode-entering .awsui_container_xjuzf_noile_436:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+    .awsui_container_xjuzf_noile_436.awsui_refresh_xjuzf_noile_614:not(#\9) {
+      animation: awsui_awsui-motion-fade-in_xjuzf_noile_1
+        var(--motion-duration-refresh-only-fast-addxjd, 115ms)
+        var(--motion-easing-refresh-only-a-sy0g8m, cubic-bezier(0, 0, 0, 1));
+    }
+    @keyframes awsui_awsui-motion-fade-in_xjuzf_noile_1 {
+      from {
+        opacity: 0.2;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .awsui_container_xjuzf_noile_436.awsui_refresh_xjuzf_noile_614:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      .awsui_container_xjuzf_noile_436.awsui_refresh_xjuzf_noile_614:not(#\9),
+    .awsui-mode-entering
+      .awsui_container_xjuzf_noile_436.awsui_refresh_xjuzf_noile_614:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+
+    .awsui_root_xjuzf_noile_636:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      color: inherit;
+    }
+
+    .awsui_trigger_xjuzf_noile_648:not(#\9) {
+      display: inline-block;
+      max-width: 100%;
+      color: inherit;
+      text-align: inherit;
+    }
+
+    .awsui_trigger-type-text_xjuzf_noile_655:not(#\9) {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      cursor: pointer;
+      border-bottom: var(--border-divider-list-width-hacikr, 1px) dashed
+        currentColor;
+    }
+    .awsui_trigger-type-text_xjuzf_noile_655:not(#\9):focus {
+      outline: none;
+    }
+    .awsui_trigger-type-text_xjuzf_noile_655[data-awsui-focus-visible="true"]:not(#\9):focus {
+      position: relative;
+    }
+    .awsui_trigger-type-text_xjuzf_noile_655[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: calc(1px - 1px);
+    }
+    .awsui_trigger-type-text_xjuzf_noile_655[data-awsui-focus-visible="true"]:not(#\9):focus::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(-1 * 1px);
+      top: calc(-1 * 1px);
+      width: calc(100% + 2 * 1px);
+      height: calc(100% + 2 * 1px);
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_trigger-type-text_xjuzf_noile_655
+      > .awsui_trigger-inner-text_xjuzf_noile_684:not(#\9) {
+      position: relative;
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_10m3l_1ksf8_97:not(#\9) {
+      display: flex;
+      align-content: stretch;
+    }
+
+    .awsui_token_10m3l_1ksf8_102:not(#\9) {
+      border: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-item-selected-pr9yuf, #00a1c9);
+      display: flex;
+      align-items: stretch;
+      background: var(--color-background-item-selected-fva7ca, #f1faff);
+      border-radius: var(--border-radius-token-3ax3p2, 2px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    .awsui_show-operation_10m3l_1ksf8_113:not(#\9) {
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .awsui_select_10m3l_1ksf8_119:not(#\9) {
+      /* used in test-utils */
+    }
+
+    .awsui_token-content_10m3l_1ksf8_123:not(#\9) {
+      padding: var(--space-scaled-xxs-95dhkm, 4px)
+        var(--space-field-horizontal-z3i1c8, 8px);
+    }
+
+    .awsui_dismiss-button_10m3l_1ksf8_127:not(#\9) {
+      width: 30px;
+      margin: 0;
+      border: none;
+      padding: 0 var(--space-xxs-ynfts5, 4px);
+      color: var(--color-text-interactive-default-9me1cm, #545b64);
+      background-color: transparent;
+      border-left: var(--border-field-width-y6x4sn, 1px) solid
+        var(--color-border-item-selected-pr9yuf, #00a1c9);
+    }
+    .awsui_dismiss-button_10m3l_1ksf8_127[data-awsui-focus-visible="true"]:not(#\9):focus {
+      position: relative;
+    }
+    .awsui_dismiss-button_10m3l_1ksf8_127[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: calc(
+        var(
+            --space-filtering-token-dismiss-button-focus-outline-gutter-25v038,
+            0px
+          ) - 1px
+      );
+    }
+    .awsui_dismiss-button_10m3l_1ksf8_127[data-awsui-focus-visible="true"]:not(#\9):focus::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(
+        -1 * var(--space-filtering-token-dismiss-button-focus-outline-gutter-25v038, 0px)
+      );
+      top: calc(
+        -1 * var(--space-filtering-token-dismiss-button-focus-outline-gutter-25v038, 0px)
+      );
+      width: calc(
+        100% + 2 *
+          var(
+            --space-filtering-token-dismiss-button-focus-outline-gutter-25v038,
+            0px
+          )
+      );
+      height: calc(
+        100% + 2 *
+          var(
+            --space-filtering-token-dismiss-button-focus-outline-gutter-25v038,
+            0px
+          )
+      );
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_dismiss-button_10m3l_1ksf8_127:not(#\9):focus {
+      outline: none;
+      text-decoration: none;
+    }
+    .awsui_dismiss-button_10m3l_1ksf8_127:not(#\9):hover {
+      cursor: pointer;
+      color: var(--color-text-interactive-hover-79wpl9, #16191f);
+    }
+
+    .awsui_token-disabled_10m3l_1ksf8_163:not(#\9) {
+      border-color: var(--color-border-control-disabled-zgidl5, #d5dbdb);
+      background-color: var(
+        --color-background-container-content-o88wxm,
+        #ffffff
+      );
+      color: var(--color-text-disabled-pjiy51, #aab7b8);
+      pointer-events: none;
+    }
+    .awsui_token-disabled_10m3l_1ksf8_163
+      > .awsui_dismiss-button_10m3l_1ksf8_127:not(#\9) {
+      color: var(--color-text-interactive-disabled-jcikk2, #aab7b8);
+      border-color: var(--color-border-control-disabled-zgidl5, #d5dbdb);
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    section.awsui_appbar_hyvsj_1phk2_93:not(#\9) {
+      align-items: center;
+      box-sizing: border-box;
+      display: grid;
+      grid-column: 3;
+      grid-row: 2;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      /* 
+Because the Breadcrumbs component cannot be styled directly it is 
+wrapped in a generic element that will apply style adjustments as needed.
+*/
+      /*
+In large viewports the buttons that trigger the Navigation and Tools 
+drawers from the AppBar are suppressed and replaced by the buttons 
+that render in the Navigation and Tools components. Additionally, 
+the content wrapper around the breadcrumbs component has variable 
+top and bottom padding based on whether or not the Notifications 
+and Header components exist.
+*/
+      /*
+In mobile viewports the AppBar becomes sticky and is repositioned to
+span the entire column definition of the Layout grid.
+*/
+    }
+    section.awsui_appbar_hyvsj_1phk2_93
+      > .awsui_appbar-nav_hyvsj_1phk2_117:not(#\9) {
+      grid-column: 1;
+      margin-right: var(--space-m-17eucw, 16px);
+    }
+    section.awsui_appbar_hyvsj_1phk2_93
+      > .awsui_breadcrumbs_hyvsj_1phk2_121:not(#\9) {
+      grid-column: 2;
+      background-color: var(--color-background-layout-main-q0tbxx, #f2f3f3);
+    }
+    section.awsui_appbar_hyvsj_1phk2_93
+      > .awsui_appbar-tools_hyvsj_1phk2_125:not(#\9) {
+      grid-column: 3;
+      margin-left: var(--space-m-17eucw, 16px);
+    }
+    @media (min-width: 689px) {
+      section.awsui_appbar_hyvsj_1phk2_93:not(#\9) {
+        /*
+  If Breadcrumbs do not exist then the AppBar should be suppressed
+  because in large viewports the triggers are rendered
+  in the Navigation and Tools components.
+  */
+        /*
+  If there is no Notifications content then the AppBar should 
+  appear to be the first rendered content even though the 
+  Notifications DOM node will still exist. The top padding 
+  should vertically align it with the Navigation and Tools circular buttons.
+  */
+        /*
+  If there is Notifications content then the AppBar should have 
+  minimal top padding in addition to the bottom margin on the 
+  Notifications component.
+  */
+        /*
+  If the Header does not exist then the AppBar is the last 
+  rendered content before the Main component. Additional 
+  bottom padding is added to create space between the 
+  Breadcrumbs and Main components that expands the height 
+  of the dark header.
+  */
+        /*
+  If the content type supports a dark sticky header then 
+  minimal bottom padding should be on the breadcrumbs to
+  reduce the the vertical distance from the main content.
+  */
+      }
+      section.awsui_appbar_hyvsj_1phk2_93:not(#\9):not(.awsui_has-breadcrumbs_hyvsj_1phk2_160) {
+        display: none;
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_appbar-nav_hyvsj_1phk2_117:not(#\9),
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_appbar-tools_hyvsj_1phk2_125:not(#\9) {
+        display: none;
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121:not(#\9):not(.awsui_has-notifications-content_hyvsj_1phk2_167) {
+        padding-top: var(--space-scaled-m-pv0fmt, 16px);
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121.awsui_has-notifications-content_hyvsj_1phk2_167:not(#\9) {
+        padding-top: var(--space-scaled-2x-s-9svxjy, 12px);
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121:not(#\9):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173),
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121:not(#\9):not(.awsui_has-header_hyvsj_1phk2_173).awsui_content-type-wizard_hyvsj_1phk2_174 {
+        padding-bottom: var(--space-m-17eucw, 16px);
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121.awsui_content-type-cards_hyvsj_1phk2_177:not(#\9),
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121.awsui_content-type-table_hyvsj_1phk2_178:not(#\9) {
+        padding-bottom: var(--space-xxs-ynfts5, 4px);
+        z-index: 799;
+      }
+    }
+    @media (max-width: 688px) {
+      section.awsui_appbar_hyvsj_1phk2_93:not(#\9) {
+        background-color: var(--color-background-home-header-vphat0, #232f3e);
+        border-bottom: 1px solid
+          var(--color-border-divider-default-k96bks, #eaeded);
+        box-shadow: var(
+          --shadow-panel-toggle-ufvynr,
+          0 1px 1px 0 rgba(0, 28, 36, 0.3),
+          1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+          -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+        );
+        grid-column: 1 / span 5;
+        grid-row: 1;
+        height: calc(
+          2 * var(--space-m-17eucw, 16px) + var(--space-scaled-xs-6859qs, 8px)
+        );
+        padding: 0 var(--space-m-17eucw, 16px);
+        position: sticky;
+        top: var(--awsui-offset-top-ujkcpl);
+        z-index: 1000;
+        /*
+  Remove any existing top and bottom padding from the Breadcrumbs since
+  they are now sticky positioned in the viewport with the AppBar.
+  */
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_appbar-nav_hyvsj_1phk2_117:not(#\9),
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_appbar-tools_hyvsj_1phk2_125:not(#\9) {
+        display: block;
+      }
+      section.awsui_appbar_hyvsj_1phk2_93
+        > .awsui_breadcrumbs_hyvsj_1phk2_121:not(#\9) {
+        padding: 0;
+      }
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    div.awsui_background_hyvsj_1phk2_213:not(#\9) {
+      display: contents;
+    }
+    div.awsui_background_hyvsj_1phk2_213
+      > .awsui_notifications-appbar-header_hyvsj_1phk2_216:not(#\9) {
+      background-color: var(--color-background-layout-main-q0tbxx, #f2f3f3);
+      grid-column: 1 / span 5;
+      grid-row: 1 / span 3;
+      /*
+The cards and table content types have a sticky dark header that is 
+offset beneath the sticky notifications if they exist. If the background 
+is not sticky then it will scroll out of the viewport leaving a white space
+behind the notifications above the content dark header.
+*/
+    }
+    @media (min-width: 689px) {
+      div.awsui_background_hyvsj_1phk2_213
+        > .awsui_notifications-appbar-header_hyvsj_1phk2_216.awsui_content-type-cards_hyvsj_1phk2_177.awsui_has-notifications-content_hyvsj_1phk2_167.awsui_sticky-notifications_hyvsj_1phk2_228:not(#\9),
+      div.awsui_background_hyvsj_1phk2_213
+        > .awsui_notifications-appbar-header_hyvsj_1phk2_216.awsui_content-type-table_hyvsj_1phk2_178.awsui_has-notifications-content_hyvsj_1phk2_167.awsui_sticky-notifications_hyvsj_1phk2_228:not(#\9) {
+        position: sticky;
+        top: var(--awsui-offset-top-ujkcpl);
+        z-index: 799;
+      }
+    }
+    div.awsui_background_hyvsj_1phk2_213
+      > .awsui_overlap_hyvsj_1phk2_234:not(#\9) {
+      background-color: var(--color-background-layout-main-q0tbxx, #f2f3f3);
+      grid-column: 1 / span 5;
+      grid-row: 4;
+      /*
+The cards and table content types have sticky header content that 
+will retain position on viewport scroll. They are setting the 
+dynamicOverlapHeight property in the AppLayout context with a container query 
+that observes the content height. The background needs to be sticky in 
+desktop viewports without overlapping notification content if it exists.
+*/
+    }
+    @media (min-width: 689px) {
+      div.awsui_background_hyvsj_1phk2_213
+        > .awsui_overlap_hyvsj_1phk2_234.awsui_content-type-cards_hyvsj_1phk2_177:not(#\9),
+      div.awsui_background_hyvsj_1phk2_213
+        > .awsui_overlap_hyvsj_1phk2_234.awsui_content-type-table_hyvsj_1phk2_178:not(#\9) {
+        position: sticky;
+        top: var(--awsui-offset-top-with-notifications-ujkcpl);
+        z-index: 799;
+      }
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    header.awsui_content_hyvsj_1phk2_174:not(#\9) {
+      grid-column: 3;
+      grid-row: 3;
+      padding-bottom: var(--space-content-header-padding-bottom-m7tdoi, 16px);
+    }
+    @media (min-width: 689px) {
+      header.awsui_content_hyvsj_1phk2_174:not(#\9) {
+        /*
+  If Notifications exist and Breadcrumbs do not then Notifications 
+  is the previous adjacent sibling to the Header. Add minimal top padding 
+  in addition to the bottom padding on the Notifications.
+  */
+        /*
+  If Breadcrumbs exists it is necessarily the previous adjacent 
+  sibling and the Header should have no padding. Add minimal top 
+  padding for vertical space between the Breadcrumbs and Header.
+  */
+        /*
+  If Notifications and Breadcrumbs do not exist then the Header 
+  is the first rendered center content. The top padding should 
+  vertically align the Header with the Navigation and Tools 
+  circular buttons.
+  */
+      }
+      header.awsui_content_hyvsj_1phk2_174.awsui_has-notifications-content_hyvsj_1phk2_167:not(#\9):not(.awsui_has-breadcrumbs_hyvsj_1phk2_160) {
+        padding-top: var(--space-scaled-xs-6859qs, 8px);
+      }
+      header.awsui_content_hyvsj_1phk2_174.awsui_has-breadcrumbs_hyvsj_1phk2_160:not(#\9) {
+        padding-top: var(--space-xxs-ynfts5, 4px);
+      }
+      header.awsui_content_hyvsj_1phk2_174:not(#\9):not(.awsui_has-notifications-content_hyvsj_1phk2_167):not(.awsui_has-breadcrumbs_hyvsj_1phk2_160) {
+        padding-top: var(--space-scaled-xs-6859qs, 8px);
+      }
+    }
+    @media (max-width: 688px) {
+      header.awsui_content_hyvsj_1phk2_174:not(#\9) {
+        padding: var(--space-m-17eucw, 16px) 0
+          var(--space-content-header-padding-bottom-m7tdoi, 16px);
+        /*
+  Breadcrumbs has moved to first position and sticky so Notifications 
+  are now the previous adjacent sibling if they exist.
+  */
+      }
+      header.awsui_content_hyvsj_1phk2_174.awsui_has-notifications-content_hyvsj_1phk2_167:not(#\9) {
+        padding-top: var(--space-scaled-xs-6859qs, 8px);
+      }
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+The first and last column definitions have two responsibilities.
+If Navigation and/or Tools exist then that will determine the width of
+the first and last columns, respectively, and the content in these drawers
+will create horizontal space from the center column content. However, if the
+navigationHide and/or toolsHide properties have been set then the first
+and last column width will default to the minimum content gap properties to
+create the necessary visual space around the main content.
+
+The minimum content width property is set to zero and applied under all
+circumstances regardless of whether the minContentWidth property is
+explicitly set in script.
+*/
+    .awsui_layout_hyvsj_1phk2_322:not(#\9) {
+      --awsui-content-gap-left-ujkcpl: 0px;
+      --awsui-content-gap-right-ujkcpl: 0px;
+      --awsui-content-height-ujkcpl: calc(
+        100vh - var(--awsui-header-height-ujkcpl) -
+          var(--awsui-footer-height-ujkcpl)
+      );
+      --awsui-default-max-content-width-ujkcpl: 1280px;
+      --awsui-default-min-content-width-ujkcpl: 0px;
+      --awsui-footer-height-ujkcpl: 0px;
+      --awsui-header-height-ujkcpl: 0px;
+      --awsui-layout-width-ujkcpl: 0px;
+      --awsui-main-offset-left-ujkcpl: 0px;
+      --awsui-max-content-width-ujkcpl: 0px;
+      --awsui-min-content-width-ujkcpl: 280px;
+      --awsui-notifications-height-ujkcpl: 0px;
+      --awsui-offset-top-ujkcpl: 0px;
+      --awsui-offset-top-with-notifications-ujkcpl: 0px;
+      --awsui-overlap-height-ujkcpl: var(
+        --space-dark-header-overlap-distance-ync2s3,
+        0px
+      );
+      background-color: var(--color-background-layout-main-q0tbxx, #f2f3f3);
+      display: grid;
+      grid-template-rows: repeat(3, auto) var(--awsui-overlap-height-ujkcpl) 1fr;
+      grid-template-columns: min-content minmax(
+          var(--awsui-content-gap-left-ujkcpl),
+          1fr
+        ) minmax(
+          var(--awsui-default-min-content-width-ujkcpl),
+          var(--awsui-default-max-content-width-ujkcpl)
+        ) minmax(var(--awsui-content-gap-right-ujkcpl), 1fr) min-content;
+      position: relative;
+      /*
+Only use the max content width custom property for the middle column definition
+if the maxContentWidth property has been explicitly set to a non-zero value and
+subsequently set the has-max-content-width data attribute to true.
+*/
+      /*
+Warning! This is a hack! We are implementing a short term fix to prevent the 
+tools drawer from potentially getting pushed off screen. Currently there is no 
+protection against a navigationWidth, minContentWidth, and toolsWidth that are 
+in excess ove the available space in the viewport. To accomodate this we remove 
+the minContentWidth and set it to zero in small viewports and below until the 
+isMobile breakpoint sets the drawers to overlay at 100vw.
+*/
+      /*
+Override the dark header overlap height property if isOverlapDisabled is true.
+The is computed state from props that can be found in the AppLayout context.
+*/
+      /*
+If disableBodyScroll is false (this is the overwhelming majority
+of use cases and the default scenario) then the scrollable element
+will be the document body which is a parent of the AppLayout component.
+The Layout should have a minimum but not fixed content height set to the
+viewport height less the header and footer height set by the resize
+observers in the component. The offset top value for components
+with position: sticky (AppBar, Navigation, Notifications, Tools) will
+be set to the header height value. The offset top value for AppLayout
+contentMain children with position: sticky will be the combined value of the
+header and notifications height in addition to the notifications top margin
+and some additional vertical space for aesthetics.
+*/
+      /*
+If disableBodyScroll is true (very uncommon use case) then the
+AppLayout component and not the document body will be the scrollable
+element. This requires a fixed height instead of a minimum height
+with a vertical scroll policy. The offset top value for components
+with position: sticky (AppBar, Navigation, Notifications, Tools) will
+be set zero since the AppLayout is nearest scrollable parent and any
+existing header does not matter. The offset top value for AppLayout
+contentMain children with position: sticky will be the value of the
+notifications height in addition to the notifications top margin
+and some additional vertical space for aesthetics.
+*/
+      /*
+In desktop viewports the content gap property for the left and right 
+columns should override the default of zero if the navigationHide 
+or toolsHide property is set. This ensures adequate horizontal space
+for the center column from the edges of the viewport when there is 
+not left or right content.
+
+Warning! If these design tokens change it will adversely impact the 
+calculation used to determine the Split Panel maximum width in the 
+handleSplitPanelMaxWidth function in the context.
+*/
+      /*
+In mobile viewports the Navigation and Tools drawers are hidden
+and triggered by the AppBar which then take up the entire viewport.
+The center column needs permanent space from the horizontal viewport 
+edges regardless of whether or not there is a Navigation or Tools. 
+*/
+    }
+    @media (min-width: 1401px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_has-max-content-width_hyvsj_1phk2_404) {
+        --awsui-default-max-content-width-ujkcpl: 1280px;
+      }
+    }
+    @media (min-width: 1921px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_has-max-content-width_hyvsj_1phk2_404) {
+        --awsui-default-max-content-width-ujkcpl: 1440px;
+      }
+    }
+    @media (min-width: 2541px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_has-max-content-width_hyvsj_1phk2_404) {
+        --awsui-default-max-content-width-ujkcpl: 1620px;
+      }
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_has-max-content-width_hyvsj_1phk2_404:not(#\9) {
+      --awsui-default-max-content-width-ujkcpl: var(
+        --awsui-max-content-width-ujkcpl
+      );
+    }
+    @media (min-width: 993px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9) {
+        --awsui-default-min-content-width-ujkcpl: var(
+          --awsui-min-content-width-ujkcpl,
+          280px
+        );
+      }
+    }
+    @media (max-width: 992px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9) {
+        --awsui-default-min-content-width-ujkcpl: 0px;
+      }
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_is-overlap-disabled_hyvsj_1phk2_431:not(#\9) {
+      --awsui-overlap-height-ujkcpl: 0;
+    }
+    .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_disable-body-scroll_hyvsj_1phk2_434) {
+      --awsui-offset-top-ujkcpl: var(--awsui-header-height-ujkcpl);
+      min-height: var(--awsui-content-height-ujkcpl);
+    }
+    .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_disable-body-scroll_hyvsj_1phk2_434):not(.awsui_has-sticky-notifications_hyvsj_1phk2_438) {
+      --awsui-offset-top-with-notifications-ujkcpl: var(
+        --awsui-header-height-ujkcpl
+      );
+    }
+    .awsui_layout_hyvsj_1phk2_322:not(#\9):not(.awsui_disable-body-scroll_hyvsj_1phk2_434).awsui_has-sticky-notifications_hyvsj_1phk2_438 {
+      --awsui-offset-top-with-notifications-ujkcpl: calc(
+        var(--awsui-header-height-ujkcpl) +
+          var(--awsui-notifications-height-ujkcpl) +
+          var(--space-xs-rsr2qu, 8px) + var(--space-xxxs-k2w98v, 2px)
+      );
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_disable-body-scroll_hyvsj_1phk2_434:not(#\9) {
+      --awsui-offset-top-ujkcpl: 0px;
+      grid-template-rows: repeat(3, auto) var(--awsui-overlap-height-ujkcpl) 1fr auto;
+      height: var(--awsui-content-height-ujkcpl);
+      overflow-y: scroll;
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_disable-body-scroll_hyvsj_1phk2_434.awsui_has-split-panel_hyvsj_1phk2_452.awsui_split-panel-position-bottom_hyvsj_1phk2_452:not(#\9) {
+      grid-template-rows: repeat(3, auto) var(--awsui-overlap-height-ujkcpl) repeat(
+          2,
+          auto
+        );
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_disable-body-scroll_hyvsj_1phk2_434:not(#\9):not(.awsui_has-sticky-notifications_hyvsj_1phk2_438) {
+      --awsui-offset-top-with-notifications-ujkcpl: 0px;
+    }
+    .awsui_layout_hyvsj_1phk2_322.awsui_disable-body-scroll_hyvsj_1phk2_434.awsui_has-sticky-notifications_hyvsj_1phk2_438:not(#\9) {
+      --awsui-offset-top-with-notifications-ujkcpl: calc(
+        var(--awsui-notifications-height-ujkcpl) + var(--space-xs-rsr2qu, 8px) +
+          var(--space-xxs-ynfts5, 4px)
+      );
+    }
+    @media (min-width: 689px) {
+      .awsui_layout_hyvsj_1phk2_322.awsui_has-content-gap-left_hyvsj_1phk2_464:not(#\9) {
+        --awsui-content-gap-left-ujkcpl: var(
+          --space-scaled-2x-xxxl-lbp35j,
+          40px
+        );
+      }
+      .awsui_layout_hyvsj_1phk2_322.awsui_has-content-gap-right_hyvsj_1phk2_467:not(#\9) {
+        --awsui-content-gap-right-ujkcpl: var(
+          --space-scaled-2x-xxxl-lbp35j,
+          40px
+        );
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_layout_hyvsj_1phk2_322:not(#\9) {
+        --awsui-content-gap-left-ujkcpl: var(--space-l-4vl6xu, 20px);
+        --awsui-content-gap-right-ujkcpl: var(--space-l-4vl6xu, 20px);
+      }
+    }
+
+    /*
+This CSS class is applied to the document body to prevent overflow scrolling
+when the navigation or tools drawers are open in responsive viewports. 
+*/
+    .awsui_block-body-scroll_hyvsj_1phk2_482:not(#\9) {
+      overflow: hidden;
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_container_hyvsj_1phk2_490:not(#\9) {
+      grid-column: 3;
+      grid-row: 4 / span 2;
+      padding-bottom: var(--space-layout-content-bottom-ebez2l, 20px);
+      /*
+If disableContentPaddings is enabled then the Main content has a different 
+behavior inside the Layout grid. By default it will render across the entire 
+grid column span. If the Navigation is open on the left, we increment the 
+start column by one. If the Tools or Split Panel (in side position) is open 
+on the right, we decrement the column end by one.
+*/
+      /*
+If disableContentPaddings is not enabled (the majority of use cases) then 
+the following code block will compute the padding behavior for the Main 
+under various circumstances.
+*/
+    }
+    .awsui_container_hyvsj_1phk2_490.awsui_disable-content-paddings_hyvsj_1phk2_507:not(#\9) {
+      grid-column: 1/6;
+      padding: 0;
+    }
+    @media (min-width: 689px) {
+      .awsui_container_hyvsj_1phk2_490.awsui_disable-content-paddings_hyvsj_1phk2_507.awsui_is-navigation-open_hyvsj_1phk2_512:not(#\9) {
+        grid-column-start: 2;
+      }
+      .awsui_container_hyvsj_1phk2_490.awsui_disable-content-paddings_hyvsj_1phk2_507.awsui_is-tools-open_hyvsj_1phk2_515:not(#\9),
+      .awsui_container_hyvsj_1phk2_490.awsui_disable-content-paddings_hyvsj_1phk2_507.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_split-panel-position-side_hyvsj_1phk2_515:not(#\9) {
+        grid-column-end: 5;
+      }
+    }
+    @media (min-width: 689px) {
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507) {
+        /*
+  Notifications is the previous adjacent sibling to the Main in 
+  desktop viewports if there are no Breadcrumbs or Header. Use additional
+  to padding on the Main.
+  */
+        /*
+  Main is the only rendered center content if there are no Notifications, 
+  Breadcrumbs, or Header. Use minimal top padding.
+  */
+        /*
+  If the Header exists then it is necessarily the previous adjacent 
+  sibling to the Main which requires no top padding.
+  */
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-default_hyvsj_1phk2_535.awsui_has-notifications-content_hyvsj_1phk2_167:not(.awsui_has-breadcrumbs_hyvsj_1phk2_160):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173),
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-form_hyvsj_1phk2_535.awsui_has-notifications-content_hyvsj_1phk2_167:not(.awsui_has-breadcrumbs_hyvsj_1phk2_160):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173) {
+        padding-top: var(--space-scaled-m-pv0fmt, 16px);
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-default_hyvsj_1phk2_535:not(.awsui_has-notifications-content_hyvsj_1phk2_167):not(.awsui_has-breadcrumbs_hyvsj_1phk2_160):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173),
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-form_hyvsj_1phk2_535:not(.awsui_has-notifications-content_hyvsj_1phk2_167):not(.awsui_has-breadcrumbs_hyvsj_1phk2_160):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173) {
+        padding-top: var(--space-scaled-xs-6859qs, 8px);
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_has-header_hyvsj_1phk2_173,
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_has-dynamic-overlap-height_hyvsj_1phk2_173 {
+        padding-top: 0;
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507) {
+        /*
+  If the Notifications exist but the Header does not then the 
+  Notifications is the previous adjacent sibling to the Main 
+  requiring additional top padding. This is because the Breadcrumbs
+  are now rendered first and positioned sticky.
+  */
+        /*
+  Main is the only rendered center content if there are no Notifications or Header.
+  */
+        /*
+  If the Header exists then it is necessarily the previous adjacent 
+  sibling to the Main which requires no top padding.
+  */
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-default_hyvsj_1phk2_535.awsui_has-notifications-content_hyvsj_1phk2_167:not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173),
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-form_hyvsj_1phk2_535.awsui_has-notifications-content_hyvsj_1phk2_167:not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173) {
+        padding-top: var(--space-scaled-m-pv0fmt, 16px);
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-default_hyvsj_1phk2_535:not(.awsui_has-notifications-content_hyvsj_1phk2_167):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173),
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_content-type-form_hyvsj_1phk2_535:not(.awsui_has-notifications-content_hyvsj_1phk2_167):not(.awsui_has-header_hyvsj_1phk2_173):not(.awsui_has-dynamic-overlap-height_hyvsj_1phk2_173) {
+        padding-top: var(--space-scaled-m-pv0fmt, 16px);
+      }
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_has-header_hyvsj_1phk2_173,
+      .awsui_container_hyvsj_1phk2_490:not(#\9):not(.awsui_disable-content-paddings_hyvsj_1phk2_507).awsui_has-dynamic-overlap-height_hyvsj_1phk2_173 {
+        padding-top: 0;
+      }
+    }
+    .awsui_container_hyvsj_1phk2_490.awsui_content-type-cards_hyvsj_1phk2_177:not(#\9),
+    .awsui_container_hyvsj_1phk2_490.awsui_content-type-table_hyvsj_1phk2_178:not(#\9),
+    .awsui_container_hyvsj_1phk2_490.awsui_content-type-wizard_hyvsj_1phk2_174:not(#\9) {
+      padding-top: 0;
+    }
+
+    /* stylelint-disable-next-line selector-combinator-disallowed-list, selector-max-universal */
+    .awsui_unfocusable_hyvsj_1phk2_576 *:not(#\9) {
+      visibility: hidden !important;
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_navigation-container_hyvsj_1phk2_584:not(#\9) {
+      --awsui-navigation-width-ujkcpl: 280px;
+      display: flex;
+      grid-column: 1;
+      grid-row: 1 / span 5;
+      height: var(--awsui-content-height-ujkcpl);
+      position: sticky;
+      top: var(--awsui-offset-top-ujkcpl);
+      z-index: 850;
+    }
+    @media (min-width: 2541px) {
+      .awsui_navigation-container_hyvsj_1phk2_584:not(#\9) {
+        --awsui-navigation-width-ujkcpl: 320px;
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_navigation-container_hyvsj_1phk2_584:not(#\9) {
+        left: 0;
+        position: fixed;
+        top: var(--awsui-offset-top-ujkcpl);
+        z-index: 1001;
+      }
+    }
+
+    nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9) {
+      padding: var(--space-scaled-s-cu1hzn, 12px)
+        var(--space-layout-toggle-padding-axl9jr, 20px);
+      /*
+Apply the animation only in desktop viewports because the AppBar will 
+take control in responsive viewports.
+*/
+    }
+    @keyframes awsui_showButtons_hyvsj_1phk2_1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    nav.awsui_show-navigation_hyvsj_1phk2_608.awsui_is-navigation-open_hyvsj_1phk2_512:not(#\9) {
+      display: none;
+    }
+    @media (min-width: 689px) {
+      nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512) {
+        display: block;
+      }
+      nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512).awsui_animating_hyvsj_1phk2_630 {
+        animation: awsui_showButtons_hyvsj_1phk2_1
+          var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+      }
+    }
+    @media (min-width: 689px) and (prefers-reduced-motion: reduce) {
+      nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512).awsui_animating_hyvsj_1phk2_630 {
+        animation: none;
+        transition: none;
+      }
+    }
+    @media (min-width: 689px) {
+      .awsui-motion-disabled
+        nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512).awsui_animating_hyvsj_1phk2_630,
+      .awsui-mode-entering
+        nav.awsui_show-navigation_hyvsj_1phk2_608:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512).awsui_animating_hyvsj_1phk2_630 {
+        animation: none;
+        transition: none;
+      }
+    }
+
+    nav.awsui_navigation_hyvsj_1phk2_584:not(#\9) {
+      background-color: var(
+        --color-background-container-content-o88wxm,
+        #ffffff
+      );
+      box-shadow: var(
+        --shadow-panel-v9vx7i,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      bottom: 0;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      position: relative;
+      word-wrap: break-word;
+      /*
+A non-semantic node is added with a fixed width equal to the final Navigation 
+width. This will create the visual appearance of horizontal movement and 
+prevent unwanted text wrapping.
+*/
+    }
+    @keyframes awsui_openNavigation_hyvsj_1phk2_1 {
+      from {
+        opacity: 0;
+        width: calc(
+          var(--space-layout-toggle-padding-axl9jr, 20px) * 2 +
+            var(--space-layout-toggle-diameter-hzvqtj, 40px)
+        );
+      }
+      to {
+        opacity: 1;
+        width: var(--awsui-navigation-width-ujkcpl);
+      }
+    }
+    nav.awsui_navigation_hyvsj_1phk2_584:not(#\9):not(.awsui_is-navigation-open_hyvsj_1phk2_512) {
+      width: 0;
+      display: none;
+    }
+    nav.awsui_navigation_hyvsj_1phk2_584.awsui_is-navigation-open_hyvsj_1phk2_512.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: awsui_openNavigation_hyvsj_1phk2_1
+        var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      nav.awsui_navigation_hyvsj_1phk2_584.awsui_is-navigation-open_hyvsj_1phk2_512.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      nav.awsui_navigation_hyvsj_1phk2_584.awsui_is-navigation-open_hyvsj_1phk2_512.awsui_animating_hyvsj_1phk2_630:not(#\9),
+    .awsui-mode-entering
+      nav.awsui_navigation_hyvsj_1phk2_584.awsui_is-navigation-open_hyvsj_1phk2_512.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+    nav.awsui_navigation_hyvsj_1phk2_584
+      > .awsui_animated-content_hyvsj_1phk2_690:not(#\9) {
+      width: var(--awsui-navigation-width-ujkcpl);
+    }
+    @media (max-width: 688px) {
+      nav.awsui_navigation_hyvsj_1phk2_584:not(#\9) {
+        --awsui-navigation-width-ujkcpl: 100vw;
+      }
+    }
+
+    .awsui_hide-navigation_hyvsj_1phk2_699:not(#\9) {
+      position: absolute;
+      right: var(--space-m-17eucw, 16px);
+      top: var(--size-vertical-panel-icon-offset-ti40n4, 15px);
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_notifications_hyvsj_1phk2_216:not(#\9) {
+      grid-column: 3;
+      grid-row: 1;
+      z-index: 825;
+      /*
+In desktop viewports the notifications will always be the first 
+slot rendered in the center column. The padding should create 
+a centered vertical alignment with the circular buttons for the
+navigation and tools drawers.
+*/
+      /*
+In mobile viewports the notifications should never be sticky even 
+if the property is set. Padding is added to give adequate 
+vertical space from the sticky AppBar the subsequent adjacent sibling.
+*/
+    }
+    @media (min-width: 689px) {
+      .awsui_notifications_hyvsj_1phk2_216:not(#\9) {
+        margin: var(--space-xs-rsr2qu, 8px) 0;
+        /*
+  var(--space-xs-rsr2qu, 8px) token needs to align with the $offsetTopWithNotifications 
+  calculation in the layout CSS. 
+  */
+      }
+      .awsui_notifications_hyvsj_1phk2_216.awsui_sticky-notifications_hyvsj_1phk2_228:not(#\9) {
+        position: sticky;
+        top: calc(
+          var(--awsui-offset-top-ujkcpl) + var(--space-xs-rsr2qu, 8px)
+        );
+      }
+      .awsui_notifications_hyvsj_1phk2_216:not(#\9):not(.awsui_has-notifications-content_hyvsj_1phk2_167) {
+        margin: 0;
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_notifications_hyvsj_1phk2_216:not(#\9) {
+        grid-row: 2;
+        margin: var(--space-scaled-s-cu1hzn, 12px) 0;
+      }
+      .awsui_notifications_hyvsj_1phk2_216.awsui_sticky-notifications_hyvsj_1phk2_228:not(#\9) {
+        position: static;
+      }
+      .awsui_notifications_hyvsj_1phk2_216:not(#\9):not(.awsui_has-notifications-content_hyvsj_1phk2_167) {
+        margin: 0;
+      }
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+When the Split Panel is in the bottom position it will be an additional
+row entry in the grid definition within the Layout component. The state of 
+the Navigation and Tools components will adjust the start and end column
+within. In the bottom position, the Split Panel is simply a direct child 
+of the Tools component flex container and should consume 100% of the 
+parent height.
+*/
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766:not(#\9) {
+      bottom: var(--awsui-footer-height-ujkcpl);
+      display: none;
+      grid-column: 1/6;
+      height: auto;
+      position: sticky;
+      z-index: 851;
+      /*
+Unlike the side position the Split Panel is persistent in the DOM 
+when in the bottom position.
+*/
+      /*
+Warning! This is a hack! The existing design token for the split panel 
+shadow in the bottom position does not render in the refactored code.
+It appears to be related to the fact that the legacy split panel element 
+has a height equal to the expanded height and a corresponding translation 
+of the Y position so it is moved off the screen. This will need to be 
+refactored with an adjustment to the split panel design token.
+*/
+      /*
+When the data attribute changes indicating the Split Panel has been opened
+apply the animation to the height property.
+*/
+    }
+    @keyframes awsui_openSplitPanelBottom_hyvsj_1phk2_1 {
+      from {
+        height: var(--awsui-split-panel-reported-header-size-ujkcpl, 0);
+      }
+      to {
+        height: var(--awsui-split-panel-reported-size-ujkcpl);
+      }
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_disable-body-scroll_hyvsj_1phk2_434:not(#\9) {
+      bottom: 0;
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-navigation-open_hyvsj_1phk2_512.awsui_position-bottom_hyvsj_1phk2_801:not(#\9) {
+      grid-column-start: 2;
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-tools-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801:not(#\9) {
+      grid-column-end: 5;
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_position-bottom_hyvsj_1phk2_801:not(#\9) {
+      display: block;
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766:not(#\9):not(.awsui_is-split-panel-open_hyvsj_1phk2_515).awsui_position-bottom_hyvsj_1phk2_801 {
+      box-shadow: rgba(0, 7, 22, 0.1) 0px -32px 32px -24px;
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801:not(#\9) {
+      box-shadow: var(
+        --shadow-split-bottom-nxe040,
+        0 -2px 1px -1px rgba(0, 28, 36, 0.15),
+        0 -1px 1px -1px rgba(0, 28, 36, 0.3)
+      );
+    }
+    section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: awsui_openSplitPanelBottom_hyvsj_1phk2_1
+        var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801.awsui_animating_hyvsj_1phk2_630:not(#\9),
+    .awsui-mode-entering
+      section.awsui_split-panel-bottom_hyvsj_1phk2_766.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-bottom_hyvsj_1phk2_801.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+
+    section.awsui_split-panel-side_hyvsj_1phk2_830:not(#\9) {
+      height: 100%;
+      overflow-x: hidden;
+      /*
+The min and max widths are applied when the Split Panel is opened otherwise 
+it would not be possible to animate the width and the box shadow would 
+be persistent in the DOM when closed.
+*/
+      /*
+A non-semantic node is added with a fixed width equal to the final Split Panel 
+width. This will create the visual appearance of horizontal movement and 
+prevent unwanted text wrapping.
+*/
+    }
+    @keyframes awsui_openSplitPanelSide_hyvsj_1phk2_1 {
+      from {
+        opacity: 0;
+        width: var(--awsui-split-panel-min-width-ujkcpl, 280px);
+      }
+      to {
+        opacity: 1;
+        width: var(--awsui-split-panel-reported-size-ujkcpl);
+      }
+    }
+    section.awsui_split-panel-side_hyvsj_1phk2_830:not(#\9):not(.awsui_is-split-panel-open_hyvsj_1phk2_515),
+    section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_position-bottom_hyvsj_1phk2_801:not(#\9) {
+      width: 0;
+    }
+    section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-side_hyvsj_1phk2_857:not(#\9) {
+      box-shadow: var(
+        --shadow-panel-v9vx7i,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      max-width: var(--awsui-split-panel-max-width-ujkcpl, 280px);
+      min-width: var(--awsui-split-panel-min-width-ujkcpl, 280px);
+    }
+    section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-side_hyvsj_1phk2_857.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: awsui_openSplitPanelSide_hyvsj_1phk2_1
+        var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-side_hyvsj_1phk2_857.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-side_hyvsj_1phk2_857.awsui_animating_hyvsj_1phk2_630:not(#\9),
+    .awsui-mode-entering
+      section.awsui_split-panel-side_hyvsj_1phk2_830.awsui_is-split-panel-open_hyvsj_1phk2_515.awsui_position-side_hyvsj_1phk2_857.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+    section.awsui_split-panel-side_hyvsj_1phk2_830
+      > .awsui_animated-content_hyvsj_1phk2_690:not(#\9) {
+      height: 100%;
+      max-width: inherit;
+      width: var(--awsui-split-panel-reported-size-ujkcpl);
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+The Tools component container has a max width calculation that depends on the 
+state of the other siblings within the Layout grid definition. The layout width
+is set in the resize observer in the Layout component. The main offset left 
+will calculate the distance from the start of the Layout component. The minimum 
+content width has a default value that can be set directly with the minContentWidth
+property. The content gap right is computed in the Layout styles based on the 
+viewport size and state of the Tools drawer.
+*/
+    .awsui_tools-container_hyvsj_1phk2_894:not(#\9) {
+      /* stylelint-disable scss/operator-no-newline-after */
+      --awsui-tools-max-width-ujkcpl: calc(
+        var(--awsui-layout-width-ujkcpl) -
+          var(--awsui-main-offset-left-ujkcpl) -
+          var(--awsui-default-min-content-width-ujkcpl) -
+          var(--awsui-content-gap-right-ujkcpl)
+      );
+      /* stylelint-enable scss/operator-no-newline-after */
+      --awsui-tools-width-ujkcpl: 290px;
+      display: flex;
+      grid-column: 5;
+      grid-row: 1 / span 5;
+      height: var(--awsui-content-height-ujkcpl);
+      max-width: var(--awsui-tools-max-width-ujkcpl);
+      position: sticky;
+      top: var(--awsui-offset-top-ujkcpl);
+      z-index: 850;
+    }
+    @media (min-width: 2541px) {
+      .awsui_tools-container_hyvsj_1phk2_894:not(#\9) {
+        --awsui-tools-width-ujkcpl: 360px;
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_tools-container_hyvsj_1phk2_894:not(#\9) {
+        --awsui-tools-max-width-ujkcpl: none;
+        --awsui-tools-width-ujkcpl: auto;
+        position: fixed;
+        right: 0;
+        top: var(--awsui-offset-top-ujkcpl);
+        z-index: 1001;
+      }
+    }
+
+    .awsui_tools_hyvsj_1phk2_894:not(#\9) {
+      background-color: var(
+        --color-background-container-content-o88wxm,
+        #ffffff
+      );
+      box-shadow: var(
+        --shadow-panel-v9vx7i,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      flex-shrink: 0;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      overscroll-behavior-y: contain;
+      position: relative;
+      word-wrap: break-word;
+      /*
+A non-semantic node is added with a fixed width equal to the final Tools 
+width. This will create the visual appearance of horizontal movement and 
+prevent unwanted text wrapping.
+*/
+      /*
+A right border is needed if the Tools is open and the buttons are persistent in
+the DOM. This creates a visual vertical boundary between the Tools and the Buttons 
+only when they are both present. This is the circumstance when there is a Split Panel
+in the side position.
+*/
+    }
+    @keyframes awsui_openTools_hyvsj_1phk2_1 {
+      from {
+        opacity: var(--awsui-tools-animation-starting-opacity-ujkcpl, 0);
+        width: calc(
+          var(--space-layout-toggle-padding-axl9jr, 20px) * 2 +
+            var(--space-layout-toggle-diameter-hzvqtj, 40px)
+        );
+      }
+      to {
+        opacity: 1;
+        width: var(--awsui-tools-width-ujkcpl);
+      }
+    }
+    .awsui_tools_hyvsj_1phk2_894:not(#\9):not(.awsui_is-tools-open_hyvsj_1phk2_515) {
+      width: 0;
+      display: none;
+    }
+    .awsui_tools_hyvsj_1phk2_894.awsui_is-tools-open_hyvsj_1phk2_515.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: awsui_openTools_hyvsj_1phk2_1
+        var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .awsui_tools_hyvsj_1phk2_894.awsui_is-tools-open_hyvsj_1phk2_515.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    .awsui-motion-disabled
+      .awsui_tools_hyvsj_1phk2_894.awsui_is-tools-open_hyvsj_1phk2_515.awsui_animating_hyvsj_1phk2_630:not(#\9),
+    .awsui-mode-entering
+      .awsui_tools_hyvsj_1phk2_894.awsui_is-tools-open_hyvsj_1phk2_515.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+      animation: none;
+      transition: none;
+    }
+    .awsui_tools_hyvsj_1phk2_894
+      > .awsui_animated-content_hyvsj_1phk2_690:not(#\9) {
+      width: var(--awsui-tools-width-ujkcpl);
+    }
+    @media (min-width: 689px) {
+      .awsui_tools_hyvsj_1phk2_894.awsui_is-tools-open_hyvsj_1phk2_515.awsui_has-tools-form-persistence_hyvsj_1phk2_977:not(#\9) {
+        border-right: var(--border-divider-section-width-5a4cv1, 1px) solid
+          var(--color-border-divider-default-k96bks, #eaeded);
+      }
+    }
+    @media (max-width: 688px) {
+      .awsui_tools_hyvsj_1phk2_894:not(#\9) {
+        --awsui-tools-width-ujkcpl: 100vw;
+      }
+    }
+
+    .awsui_hide-tools_hyvsj_1phk2_987:not(#\9) {
+      position: absolute;
+      right: var(--space-m-17eucw, 16px);
+      top: var(--size-vertical-panel-icon-offset-ti40n4, 15px);
+      z-index: 1;
+    }
+
+    /*
+Warning! If these design tokens for padding change it will adversely impact 
+the calculation used to determine the Split Panel maximum width in the 
+handleSplitPanelMaxWidth function in the context.
+*/
+    .awsui_show-tools_hyvsj_1phk2_999:not(#\9) {
+      box-sizing: border-box;
+      padding: var(--space-scaled-s-cu1hzn, 12px)
+        var(--space-layout-toggle-padding-axl9jr, 20px);
+      /*
+Apply the animation only in desktop viewports because the AppBar will 
+take control in responsive viewports.
+*/
+    }
+    @keyframes awsui_showButtons_hyvsj_1phk2_1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .awsui_show-tools_hyvsj_1phk2_999:not(#\9):not(.awsui_has-tools-form_hyvsj_1phk2_977) {
+      display: none;
+    }
+    @media (min-width: 689px) {
+      .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form_hyvsj_1phk2_977:not(#\9) {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-xs-rsr2qu, 8px);
+      }
+      .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form_hyvsj_1phk2_977.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: awsui_showButtons_hyvsj_1phk2_1
+          var(--motion-duration-refresh-only-fast-addxjd, 115ms);
+      }
+    }
+    @media (min-width: 689px) and (prefers-reduced-motion: reduce) {
+      .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form_hyvsj_1phk2_977.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    @media (min-width: 689px) {
+      .awsui-motion-disabled
+        .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form_hyvsj_1phk2_977.awsui_animating_hyvsj_1phk2_630:not(#\9),
+      .awsui-mode-entering
+        .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form_hyvsj_1phk2_977.awsui_animating_hyvsj_1phk2_630:not(#\9) {
+        animation: none;
+        transition: none;
+      }
+    }
+    @media (min-width: 689px) {
+      .awsui_show-tools_hyvsj_1phk2_999.awsui_has-tools-form-persistence_hyvsj_1phk2_977:not(#\9) {
+        background-color: var(
+          --color-background-container-content-o88wxm,
+          #ffffff
+        );
+        z-index: 1;
+      }
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Warning! If these design tokens for width change it will adversely impact 
+the calculation used to determine the Split Panel maximum width in the 
+handleSplitPanelMaxWidth function in the context.
+*/
+    .awsui_trigger_hyvsj_1phk2_1056:not(#\9) {
+      background: var(
+        --color-background-layout-toggle-default-o9dqpo,
+        #2a2e33
+      );
+      border: none;
+      border-radius: 50%;
+      box-shadow: var(
+        --shadow-panel-toggle-ufvynr,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      color: var(--color-text-layout-toggle-20sb9r, #ffffff);
+      cursor: pointer;
+      height: var(--space-layout-toggle-diameter-hzvqtj, 40px);
+      padding: 0 var(--space-s-hv8c1d, 12px);
+      width: var(--space-layout-toggle-diameter-hzvqtj, 40px);
+    }
+    .awsui_trigger_hyvsj_1phk2_1056[data-awsui-focus-visible="true"]:not(#\9):focus {
+      position: relative;
+    }
+    .awsui_trigger_hyvsj_1phk2_1056[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: calc(3px - 1px);
+    }
+    .awsui_trigger_hyvsj_1phk2_1056[data-awsui-focus-visible="true"]:not(#\9):focus::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(-1 * 3px);
+      top: calc(-1 * 3px);
+      width: calc(100% + 2 * 3px);
+      height: calc(100% + 2 * 3px);
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_trigger_hyvsj_1phk2_1056:not(#\9):focus {
+      outline: none;
+    }
+    .awsui_trigger_hyvsj_1phk2_1056:not(#\9):hover {
+      background: var(--color-background-layout-toggle-hover-5rvtea, #545b64);
+    }
+    .awsui_trigger_hyvsj_1phk2_1056:not(#\9):active {
+      background: var(
+        --color-background-layout-toggle-active-d3zrnd,
+        #2a2e33
+      );
+    }
+    .awsui_trigger_hyvsj_1phk2_1056.awsui_selected_hyvsj_1phk2_1094:not(#\9) {
+      background: var(
+        --color-background-layout-toggle-selected-default-eduv1i,
+        #0073bb
+      );
+      color: var(--color-text-layout-toggle-selected-jquwag, #ffffff);
+    }
+    .awsui_trigger_hyvsj_1phk2_1056.awsui_selected_hyvsj_1phk2_1094:not(#\9):hover {
+      background: var(
+        --color-background-layout-toggle-selected-hover-vtsm2f,
+        #0a4a74
+      );
+    }
+    .awsui_trigger_hyvsj_1phk2_1056.awsui_selected_hyvsj_1phk2_1094:not(#\9):active {
+      background: var(
+        --color-background-layout-toggle-selected-active-3ftljk,
+        #0073bb
+      );
+    }
+
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_14iqq_1h8x6_97:not(#\9) {
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      border-collapse: separate;
+      border-spacing: 0;
+      caption-side: top;
+      cursor: auto;
+      direction: ltr;
+      empty-cells: show;
+      font-family: serif;
+      font-size: medium;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: normal;
+      -webkit-hyphens: none;
+      hyphens: none;
+      letter-spacing: normal;
+      list-style: disc outside none;
+      tab-size: 8;
+      text-align: left;
+      text-align-last: auto;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      widows: 2;
+      word-spacing: normal;
+      box-sizing: border-box;
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      display: block;
+      word-wrap: break-word;
+    }
+    .awsui_root_14iqq_1h8x6_97.awsui_variant-default_14iqq_1h8x6_109:not(#\9),
+    .awsui_root_14iqq_1h8x6_97.awsui_variant-stacked_14iqq_1h8x6_109:not(#\9) {
+      box-shadow: var(
+        --shadow-container-0bkp96,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      border-top: var(--border-container-top-width-fs2udu, 1px) solid
+        var(--color-border-container-top-1itxac, #eaeded);
+      border-radius: var(--border-radius-container-1aveko, 0px);
+      box-sizing: border-box;
+      background-color: var(
+        --color-background-container-content-o88wxm,
+        #ffffff
+      );
+    }
+    @media screen and (-ms-high-contrast: active) {
+      .awsui_root_14iqq_1h8x6_97.awsui_variant-default_14iqq_1h8x6_109:not(#\9),
+      .awsui_root_14iqq_1h8x6_97.awsui_variant-stacked_14iqq_1h8x6_109:not(#\9) {
+        border: var(--border-field-width-y6x4sn, 1px) solid
+          var(--color-border-container-top-1itxac, #eaeded);
+      }
+    }
+    .awsui_root_14iqq_1h8x6_97.awsui_variant-stacked_14iqq_1h8x6_109:not(#\9):not(:last-child) {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .awsui_root_14iqq_1h8x6_97.awsui_variant-stacked_14iqq_1h8x6_109
+      + .awsui_root_14iqq_1h8x6_97.awsui_variant-stacked_14iqq_1h8x6_109:not(#\9) {
+      border-top: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      box-shadow: var(
+        --shadow-container-stacked-j8j87i,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+    }
+
+    .awsui_header_14iqq_1h8x6_132:not(#\9) {
+      background-color: var(
+        --color-background-container-header-g9rg0j,
+        #fafafa
+      );
+      border-radius: var(--border-radius-container-1aveko, 0px);
+    }
+    .awsui_header-sticky-disabled_14iqq_1h8x6_136:not(#\9) {
+      position: relative;
+      z-index: 1;
+    }
+    .awsui_header-sticky-enabled_14iqq_1h8x6_140:not(#\9) {
+      top: 0;
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+      position: sticky;
+      z-index: 800;
+    }
+    .awsui_header-stuck_14iqq_1h8x6_146:not(#\9) {
+      box-shadow: var(
+        --shadow-sticky-embedded-5acv0s,
+        0px 1px 4px -2px rgba(0, 28, 36, 0.5)
+      );
+      border: 0;
+      border-radius: 0;
+    }
+    .awsui_header-dynamic-height_14iqq_1h8x6_151.awsui_header-stuck_14iqq_1h8x6_146:not(#\9) {
+      margin-bottom: calc(
+        var(--font-heading-xl-line-height-qeciux, 36px) -
+          var(--font-heading-l-line-height-oujdab, 22px)
+      );
+    }
+    .awsui_header_14iqq_1h8x6_132:not(#\9):not(:empty) {
+      border-bottom: var(--border-container-sticky-width-pybmba, 1px) solid
+        var(--color-border-container-divider-z203b8, #eaeded);
+    }
+    .awsui_header_14iqq_1h8x6_132.awsui_with-paddings_14iqq_1h8x6_157:not(#\9) {
+      padding: var(--space-container-header-vertical-0bd19u, 12px)
+        var(--space-container-horizontal-tlw03i, 20px);
+    }
+    .awsui_header-variant-cards_14iqq_1h8x6_160:not(#\9) {
+      box-shadow: var(
+        --shadow-container-0bkp96,
+        0 1px 1px 0 rgba(0, 28, 36, 0.3),
+        1px 1px 1px 0 rgba(0, 28, 36, 0.15),
+        -1px 1px 1px 0 rgba(0, 28, 36, 0.15)
+      );
+      border-top: var(--border-container-top-width-fs2udu, 1px) solid
+        var(--color-border-container-top-1itxac, #eaeded);
+      border-radius: var(--border-radius-container-1aveko, 0px);
+      box-sizing: border-box;
+    }
+    @media screen and (-ms-high-contrast: active) {
+      .awsui_header-variant-cards_14iqq_1h8x6_160:not(#\9) {
+        border: var(--border-field-width-y6x4sn, 1px) solid
+          var(--color-border-container-top-1itxac, #eaeded);
+      }
+    }
+    .awsui_header-variant-cards_14iqq_1h8x6_160:not(#\9):not(:empty) {
+      border-bottom: 1px solid #d5dbdb;
+      /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+    }
+    @supports (--css-variable-support-check: #000) {
+      .awsui_header-variant-cards_14iqq_1h8x6_160:not(#\9):not(:empty) {
+        border-bottom: 0;
+      }
+    }
+    .awsui_header-variant-cards_14iqq_1h8x6_160.awsui_header-stuck_14iqq_1h8x6_146:not(#\9) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .awsui_header-variant-full-page_14iqq_1h8x6_184.awsui_header-stuck_14iqq_1h8x6_146:not(#\9) {
+      box-shadow: var(
+        --shadow-sticky-thyisb,
+        0px 1px 4px -2px rgba(0, 28, 36, 0.5)
+      );
+    }
+
+    /*
+The dynamic height dark header needs a background that will cover
+the default white background of the container component.
+*/
+    .awsui_dark-header_14iqq_1h8x6_192:not(#\9) {
+      background-color: var(--color-background-layout-main-q0tbxx, #f2f3f3);
+    }
+
+    .awsui_content_14iqq_1h8x6_196.awsui_with-paddings_14iqq_1h8x6_157:not(#\9) {
+      padding: var(--space-scaled-l-t03y3z, 20px)
+        var(--space-container-horizontal-tlw03i, 20px);
+    }
+    .awsui_header_14iqq_1h8x6_132
+      + .awsui_content_14iqq_1h8x6_196.awsui_with-paddings_14iqq_1h8x6_157:not(#\9) {
+      padding-top: var(--space-container-content-top-u412x3, 16px);
+    }
+
+    .awsui_footer_14iqq_1h8x6_203.awsui_with-paddings_14iqq_1h8x6_157:not(#\9) {
+      padding: var(--space-scaled-s-cu1hzn, 12px)
+        var(--space-container-horizontal-tlw03i, 20px);
+    }
+    .awsui_footer_14iqq_1h8x6_203.awsui_with-divider_14iqq_1h8x6_206:not(#\9) {
+      border-top: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_wih1l_bo0ab_97:not(#\9) {
+      font-size: var(--font-body-m-size-sregvd, 14px);
+      line-height: var(--font-body-m-line-height-i7xxvv, 22px);
+      color: var(--color-text-body-default-7m2b3r, #16191f);
+      font-weight: 400;
+      font-family: var(
+        --font-family-base-ua1f64,
+        "Amazon Ember",
+        "Helvetica Neue",
+        Roboto,
+        Arial,
+        sans-serif
+      );
+      width: 100%;
+    }
+
+    .awsui_tools_wih1l_bo0ab_106:not(#\9) {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: var(--space-scaled-xs-6859qs, 8px) 0
+        var(--space-scaled-xxs-95dhkm, 4px);
+    }
+    .awsui_tools-filtering_wih1l_bo0ab_112:not(#\9) {
+      flex: 1 1 0%;
+      max-width: 100%;
+      margin-right: var(--space-l-4vl6xu, 20px);
+    }
+    .awsui_tools-align-right_wih1l_bo0ab_117:not(#\9) {
+      display: flex;
+      margin-left: auto;
+    }
+    .awsui_tools-pagination_wih1l_bo0ab_121
+      + .awsui_tools-preferences_wih1l_bo0ab_121:not(#\9) {
+      border-left: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+      box-sizing: border-box;
+      margin-left: var(--space-xs-rsr2qu, 8px);
+      padding-left: var(--space-xs-rsr2qu, 8px);
+    }
+    .awsui_tools-small_wih1l_bo0ab_127
+      > .awsui_tools-filtering_wih1l_bo0ab_112:not(#\9) {
+      margin-right: 0;
+      margin-bottom: var(--space-scaled-xs-6859qs, 8px);
+      flex-basis: 100%;
+    }
+
+    .awsui_table_wih1l_bo0ab_133:not(#\9) {
+      width: 100%;
+      border-spacing: 0;
+      position: relative;
+      box-sizing: border-box;
+    }
+    .awsui_table-layout-fixed_wih1l_bo0ab_139:not(#\9) {
+      table-layout: fixed;
+    }
+
+    .awsui_wrapper_wih1l_bo0ab_143:not(#\9) {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      padding-top: var(--space-table-content-top-su9ka6, 0px);
+      padding-bottom: var(--space-table-content-bottom-2l75ve, 0px);
+      overflow-x: auto;
+      border-top-right-radius: var(--border-radius-container-1aveko, 0px);
+      border-top-left-radius: var(--border-radius-container-1aveko, 0px);
+    }
+    .awsui_wrapper_wih1l_bo0ab_143.awsui_variant-stacked_wih1l_bo0ab_153
+      > .awsui_table_wih1l_bo0ab_133:not(#\9),
+    .awsui_wrapper_wih1l_bo0ab_143.awsui_variant-container_wih1l_bo0ab_153
+      > .awsui_table_wih1l_bo0ab_133:not(#\9) {
+      padding-left: var(--space-table-horizontal-njdbej, 0px);
+      padding-right: var(--space-table-horizontal-njdbej, 0px);
+    }
+    .awsui_wrapper_wih1l_bo0ab_143.awsui_variant-embedded_wih1l_bo0ab_157:not(#\9) {
+      padding-bottom: var(--space-table-embedded-content-bottom-7vc5vt, 0px);
+    }
+    .awsui_wrapper_wih1l_bo0ab_143.awsui_has-header_wih1l_bo0ab_160:not(#\9) {
+      padding-top: 0px;
+    }
+    .awsui_wrapper_wih1l_bo0ab_143.awsui_has-footer_wih1l_bo0ab_163:not(#\9) {
+      padding-bottom: 0px;
+    }
+    .awsui_wrapper_wih1l_bo0ab_143[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: 2px;
+      border-radius: var(--border-radius-container-1aveko, 0px);
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+
+    .awsui_cell-merged_wih1l_bo0ab_173:not(#\9) {
+      text-align: center;
+      padding: 0;
+    }
+    .awsui_cell-merged-content_wih1l_bo0ab_177:not(#\9) {
+      box-sizing: border-box;
+      width: 100%;
+      padding: var(--space-scaled-m-pv0fmt, 16px) var(--space-l-4vl6xu, 20px)
+        var(--space-scaled-l-t03y3z, 20px);
+      /* stylelint-disable plugin/no-unsupported-browser-features */
+      /* stylelint-enable plugin/no-unsupported-browser-features */
+    }
+    @supports (position: sticky) {
+      .awsui_cell-merged-content_wih1l_bo0ab_177:not(#\9) {
+        position: sticky;
+        left: 0;
+        margin: 0 calc(-2 * var(--space-table-horizontal-njdbej, 0px));
+      }
+    }
+
+    .awsui_empty_wih1l_bo0ab_192:not(#\9) {
+      color: var(--color-text-empty-izapdt, #687078);
+    }
+
+    .awsui_loading_wih1l_bo0ab_196:not(#\9) {
+      /* used in test-utils */
+    }
+
+    .awsui_selection-control_wih1l_bo0ab_200:not(#\9) {
+      position: relative;
+      box-sizing: border-box;
+      width: 54px;
+      max-width: 54px;
+      min-width: 54px;
+    }
+    .awsui_selection-control_wih1l_bo0ab_200.awsui_selection-control-header_wih1l_bo0ab_207:not(#\9) {
+      padding: var(--space-scaled-xs-6859qs, 8px)
+        var(--space-scaled-l-t03y3z, 20px);
+      border-left: var(--border-item-width-yvnixs, 1px) solid transparent;
+    }
+
+    .awsui_sticky-scrollbar_wih1l_bo0ab_212:not(#\9) {
+      height: 15px;
+      position: fixed;
+      display: none;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin-top: -15px;
+      bottom: 0;
+      width: 100%;
+    }
+    .awsui_sticky-scrollbar-content_wih1l_bo0ab_222:not(#\9) {
+      height: 15px;
+    }
+    .awsui_sticky-scrollbar-visible_wih1l_bo0ab_225:not(#\9) {
+      display: block;
+    }
+
+    .awsui_header-secondary_wih1l_bo0ab_229:not(#\9) {
+      overflow: auto;
+      -ms-overflow-style: none; /* Internet Explorer 10+ */
+      scrollbar-width: none; /* Firefox */
+      box-sizing: border-box;
+      width: 100%;
+      border-radius: 0;
+      background: var(--color-background-table-header-mryayf, #fafafa);
+    }
+    .awsui_header-secondary_wih1l_bo0ab_229.awsui_variant-stacked_wih1l_bo0ab_153
+      > .awsui_table_wih1l_bo0ab_133:not(#\9),
+    .awsui_header-secondary_wih1l_bo0ab_229.awsui_variant-container_wih1l_bo0ab_153
+      > .awsui_table_wih1l_bo0ab_133:not(#\9) {
+      padding-left: var(--space-table-horizontal-njdbej, 0px);
+      padding-right: var(--space-table-horizontal-njdbej, 0px);
+    }
+    .awsui_header-secondary_wih1l_bo0ab_229:not(#\9)::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+
+    .awsui_header-controls_wih1l_bo0ab_246:not(#\9) {
+      padding-top: var(--space-container-header-vertical-0bd19u, 12px);
+      padding-bottom: var(--space-container-header-vertical-0bd19u, 12px);
+    }
+    .awsui_header-controls_wih1l_bo0ab_246.awsui_variant-stacked_wih1l_bo0ab_153:not(#\9),
+    .awsui_header-controls_wih1l_bo0ab_246.awsui_variant-container_wih1l_bo0ab_153:not(#\9) {
+      padding-left: calc(
+        var(--space-table-horizontal-njdbej, 0px) +
+          var(--space-table-header-horizontal-4u689g, 20px)
+      );
+      padding-right: calc(
+        var(--space-table-horizontal-njdbej, 0px) +
+          var(--space-table-header-horizontal-4u689g, 20px)
+      );
+    }
+    .awsui_header-controls_wih1l_bo0ab_246.awsui_variant-embedded_wih1l_bo0ab_157:not(#\9) {
+      padding-left: var(--space-table-header-horizontal-4u689g, 20px);
+      padding-right: var(--space-table-header-horizontal-4u689g, 20px);
+      padding-top: var(--space-table-embedded-header-top-1yxc8d, 12px);
+    }
+    .awsui_header-controls_wih1l_bo0ab_246
+      + .awsui_header-secondary_wih1l_bo0ab_229:not(#\9) {
+      border-top: var(--border-divider-list-width-hacikr, 1px) solid
+        var(--color-border-container-divider-z203b8, #eaeded);
+    }
+
+    .awsui_divider_wih1l_bo0ab_263:not(#\9) {
+      border: none;
+      margin: 0;
+      height: 0;
+      border-top: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+    }
+
+    .awsui_footer-wrapper_wih1l_bo0ab_270.awsui_variant-stacked_wih1l_bo0ab_153:not(#\9),
+    .awsui_footer-wrapper_wih1l_bo0ab_270.awsui_variant-container_wih1l_bo0ab_153:not(#\9) {
+      padding-left: var(--space-table-horizontal-njdbej, 0px);
+      padding-right: var(--space-table-horizontal-njdbej, 0px);
+    }
+
+    .awsui_footer_wih1l_bo0ab_270:not(#\9) {
+      padding: var(--space-scaled-s-cu1hzn, 12px)
+        var(--space-table-footer-horizontal-m6qo87, 20px);
+    }
+
+    .awsui_thead-active_wih1l_bo0ab_279:not(#\9),
+    .awsui_row_wih1l_bo0ab_280:not(#\9),
+    .awsui_row-selected_wih1l_bo0ab_281:not(#\9) {
+      /* used in test-utils */
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_root_1ut8b_8i78g_93:not(#\9) {
+      /* used in test-utils and in the use-selection hook */
+    }
+
+    .awsui_label_1ut8b_8i78g_97:not(#\9) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      padding-right: var(--space-xs-rsr2qu, 8px);
+      padding-left: var(--space-xs-rsr2qu, 8px);
+      padding-bottom: var(--space-xxs-ynfts5, 4px);
+      height: 100%;
+      top: 0;
+      width: 100%;
+      left: 0;
+      box-sizing: border-box;
+      border-right: 1px solid transparent;
+    }
+
+    .awsui_stud_1ut8b_8i78g_113:not(#\9) {
+      visibility: hidden;
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_header-cell_1spae_1bcvt_93:not(#\9) {
+      position: relative;
+      text-align: left;
+      box-sizing: border-box;
+      border-bottom: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+      background: var(--color-background-table-header-mryayf, #fafafa);
+      color: var(--color-text-column-header-nsvxtb, #545b64);
+      font-weight: var(--font-heading-s-weight-1ygwuy, 700);
+      padding: var(--space-scaled-xxs-95dhkm, 4px)
+        var(--space-scaled-xs-6859qs, 8px);
+    }
+    .awsui_header-cell-sticky_1spae_1bcvt_103:not(#\9) {
+      border-bottom: var(--border-table-sticky-width-52djt5, 0px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+    }
+    .awsui_header-cell-stuck_1spae_1bcvt_106:not(#\9) {
+      border-bottom-color: transparent;
+    }
+    .awsui_header-cell-variant-full-page_1spae_1bcvt_109:not(#\9) {
+      border-bottom: var(--space-scaled-xxs-95dhkm, 4px) solid transparent;
+    }
+    .awsui_header-cell_1spae_1bcvt_93:not(#\9):first-child {
+      padding-left: var(--space-xs-rsr2qu, 8px);
+    }
+    .awsui_header-cell_1spae_1bcvt_93:not(#\9):last-child,
+    .awsui_header-cell_1spae_1bcvt_93.awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9) {
+      padding-right: var(--space-xs-rsr2qu, 8px);
+    }
+    .awsui_header-cell_1spae_1bcvt_93:not(#\9):not(:last-child):before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 25%;
+      height: 50%;
+      border-left: var(--border-divider-section-width-5a4cv1, 1px) solid
+        var(--color-border-divider-default-k96bks, #eaeded);
+      box-sizing: border-box;
+    }
+
+    .awsui_sorting-icon_1spae_1bcvt_128:not(#\9) {
+      position: absolute;
+      top: var(--space-scaled-xxs-95dhkm, 4px);
+      right: var(--space-xxs-ynfts5, 4px);
+      color: var(--color-text-column-sorting-icon-is8apt, #879596);
+    }
+
+    .awsui_header-cell-disabled_1spae_1bcvt_135.awsui_header-cell-sorted_1spae_1bcvt_135
+      > .awsui_header-cell-content_1spae_1bcvt_135
+      > .awsui_sorting-icon_1spae_1bcvt_128:not(#\9) {
+      color: var(--color-text-interactive-disabled-jcikk2, #aab7b8);
+    }
+
+    .awsui_header-cell-content_1spae_1bcvt_135:not(#\9) {
+      position: relative;
+      padding: var(--space-scaled-xxs-95dhkm, 4px) var(--space-s-hv8c1d, 12px);
+    }
+    .awsui_header-cell-sortable_1spae_1bcvt_115
+      > .awsui_header-cell-content_1spae_1bcvt_135:not(#\9) {
+      padding-right: calc(
+        var(--space-xl-a39hup, 24px) + var(--space-xxs-ynfts5, 4px)
+      );
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135:not(#\9):focus {
+      outline: none;
+      text-decoration: none;
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135[data-awsui-focus-visible="true"]:not(#\9):focus {
+      position: relative;
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135[data-awsui-focus-visible="true"]:not(#\9):focus {
+      outline: 2px dotted transparent;
+      outline-offset: calc(
+        var(--space-table-header-focus-outline-gutter-uqywlq, 0px) - 1px
+      );
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135[data-awsui-focus-visible="true"]:not(#\9):focus::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(
+        -1 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      top: calc(
+        -1 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      width: calc(
+        100% + 2 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      height: calc(
+        100% + 2 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135.awsui_header-cell-fake-focus_1spae_1bcvt_168:not(#\9) {
+      position: relative;
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135.awsui_header-cell-fake-focus_1spae_1bcvt_168:not(#\9) {
+      outline: 2px dotted transparent;
+      outline-offset: calc(
+        var(--space-table-header-focus-outline-gutter-uqywlq, 0px) - 1px
+      );
+    }
+    .awsui_header-cell-content_1spae_1bcvt_135.awsui_header-cell-fake-focus_1spae_1bcvt_168:not(#\9)::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: calc(
+        -1 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      top: calc(
+        -1 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      width: calc(
+        100% + 2 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      height: calc(
+        100% + 2 * var(--space-table-header-focus-outline-gutter-uqywlq, 0px)
+      );
+      border-radius: var(
+        --border-radius-control-default-focus-ring-hekmgc,
+        2px
+      );
+      box-shadow: 0 0 0 2px var(--color-border-item-focused-n5kd8g, #0073bb);
+    }
+
+    .awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9):not(.awsui_header-cell-disabled_1spae_1bcvt_135)
+      > .awsui_header-cell-content_1spae_1bcvt_135 {
+      cursor: pointer;
+    }
+    .awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9):not(.awsui_header-cell-disabled_1spae_1bcvt_135)
+      > .awsui_header-cell-content_1spae_1bcvt_135:hover,
+    .awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9):not(.awsui_header-cell-disabled_1spae_1bcvt_135).awsui_header-cell-sorted_1spae_1bcvt_135
+      > .awsui_header-cell-content_1spae_1bcvt_135 {
+      color: var(--color-text-interactive-active-i5elzx, #16191f);
+    }
+    .awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9):not(.awsui_header-cell-disabled_1spae_1bcvt_135)
+      > .awsui_header-cell-content_1spae_1bcvt_135:hover
+      > .awsui_sorting-icon_1spae_1bcvt_128,
+    .awsui_header-cell-sortable_1spae_1bcvt_115:not(#\9):not(.awsui_header-cell-disabled_1spae_1bcvt_135).awsui_header-cell-sorted_1spae_1bcvt_135
+      > .awsui_header-cell-content_1spae_1bcvt_135
+      > .awsui_sorting-icon_1spae_1bcvt_128 {
+      color: var(--color-text-interactive-active-i5elzx, #16191f);
+    }
+
+    .awsui_header-cell-text_1spae_1bcvt_197:not(#\9):not(.awsui_header-cell-text-wrap_1spae_1bcvt_197) {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .awsui_header-cell-ascending_1spae_1bcvt_203:not(#\9),
+    .awsui_header-cell-descending_1spae_1bcvt_204:not(#\9) {
+      /* used in test-utils */
+    }
+  
+  
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* stylelint-disable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /* stylelint-enable @amzn/awsui-no-motion-outside-of-mixin, selector-combinator-disallowed-list, selector-pseudo-class-no-unknown, selector-class-pattern */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /* Style used for links in slots/components that are text heavy, to help links stand out among 
+surrounding text. (WCAG F73) https://www.w3.org/WAI/WCAG21/Techniques/failures/F73#description */
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    /*
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: Apache-2.0
+*/
+    .awsui_resize-active_x7peu_132gz_93 *:not(#\9) {
+      cursor: col-resize;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    .awsui_resizer_x7peu_132gz_98:not(#\9) {
+      bottom: 0;
+      cursor: col-resize;
+      position: absolute;
+      right: calc(-1 * var(--space-l-4vl6xu, 20px) / 2);
+      top: 0;
+      width: var(--space-l-4vl6xu, 20px);
+      z-index: 10;
+    }
+    .awsui_resize-active_x7peu_132gz_93
+      .awsui_resizer_x7peu_132gz_98:not(#\9) {
+      pointer-events: none;
+    }
+    th:not(#\9):last-child > .awsui_resizer_x7peu_132gz_98 {
+      width: calc(var(--space-l-4vl6xu, 20px) / 2);
+      right: 0;
+    }
+    th:not(#\9):not(:last-child)
+      > .awsui_resizer_x7peu_132gz_98:hover::before,
+    th:not(#\9):not(:last-child)
+      > .awsui_resizer-active_x7peu_132gz_114::before {
+      content: "";
+      position: absolute;
+      left: calc(var(--space-l-4vl6xu, 20px) / 2 - 2px);
+      bottom: 25%;
+      height: 50%;
+      box-sizing: border-box;
+      border-left: 2px solid
+        var(--color-border-divider-active-xsh3y8, #879596);
+    }
+
+    .awsui_tracker_x7peu_132gz_124:not(#\9) {
+      display: none;
+      position: absolute;
+      border-left: var(--border-divider-list-width-hacikr, 1px) dashed
+        var(--color-border-divider-active-xsh3y8, #879596);
+      width: 0;
+      top: 0;
+      bottom: 0;
+    }
+    .awsui_resize-active_x7peu_132gz_93
+      .awsui_tracker_x7peu_132gz_124:not(#\9) {
+      display: block;
+    }
+  

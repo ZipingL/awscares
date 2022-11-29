@@ -1,0 +1,114 @@
+// click works with angular or native components
+// awsui:{event} works with polaris components
+['click', 'awsui:click', 'awsui:change'].forEach(function (eventType) {
+    document.addEventListener(eventType, function (e) {
+        if (!e.target.dataset.hasOwnProperty('customMetric')) return;
+        var data = JSON.parse(e.target.dataset.customMetric);
+        emitLog({
+            key: 'CM-' + (data.value || 'no-value'),
+            value: 1,
+            detail: encodeURIComponent(JSON.stringify(
+                {
+                    metadata: data.metadata,
+                    eventType: eventType,
+                    timestamp: new Date().getTime()
+                }
+            ))
+        });
+    });
+});
+
+// log user transition between pages in a SPA (Single Page Application)
+window.addEventListener('hashchange', function (e) {
+    emitLog({
+        key: 'CM-Navigate',
+        value: 1,
+        detail: encodeURIComponent(JSON.stringify(
+            {
+                from: e.oldURL,
+                to: e.newURL,
+                eventType: 'hashchange',
+                timestamp: new Date().getTime()
+            }
+        ))
+    });
+}, false);
+
+// logging using mezzanine logger
+function emitLog(log) {
+    if (window.AWSC && window.AWSC.Clog && window.AWSC.Clog.log) {
+      window.AWSC.Clog.log(log);
+    }
+}
+
+// Intercepting the client logs call
+// More details https://code.amazon.com/packages/AWSConsoleNavContent/blobs/6db15658d2e51fd826e594ded22f9cad612d2841/--/configuration/static-asset-src/mezz/js/csl-foot.js#L212,L213,L227,L228,L229,L230,L231
+(function () {
+    var CLIENT_LOG_URL = '/p/log/1/support/1/OP';
+    var SC_ANALYTICS_URL = '/support/analytics/SC_OP';
+
+    //Default approach is using `new Image().src = {analytics_data}`
+    //Changing the prototype of `src` in Image which is Dom objects
+    //Supported by Chrome 29+, Edge 12+, Firefox 23+, IE +9, and Safari 6+
+    // for more details
+    // * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+    // * https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
+    // * https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+    if (Object.defineProperty && Image.prototype.getAttribute) {
+        Object.defineProperty(Image.prototype, 'src', {
+            set: function (srcAttr) {
+                if (srcAttr.lastIndexOf(CLIENT_LOG_URL) == 0){
+                  // For some reason, AWSCLog does not encode some special characters when they present
+                  // in the details string. If the our logs contain those chars the message will be truncated
+                  // (the browser will think # or / is defining a path, and ? will make our Lambda split the string).
+                  // Will also fail whe emitting with escaped characters in the details string like such as \".
+                  logParams = srcAttr.substring(srcAttr.indexOf('&'));
+                  logParams = logParams
+                    .replace(/#/g, '%23')
+                    .replace(/\?/g, '%3F')
+                    .replace(/\//g, '%252F') // `/` must be double encoded, otherwise the console returns a 400
+                    .replace(/%5Cb/g, '%08') // \b
+                    .replace(/%5Cf/g, '%0C') // \f
+                    .replace(/%5Cn/g, '%0A') // \n
+                    .replace(/%5Cr/g, '%0D') // \r
+                    .replace(/%5Ct/g, '%09') // \t
+                    .replace(/%5Cv/g, '%0B') // \v
+                    .replace(/%5C0/g, '%00') // \0
+                    .replace(/%5C%27/g, '%2527') // \'
+                    .replace(/%5C%22/g, '%2522') // \"
+                    .replace(/%5C%5C/g, '%255C'); // \\
+
+                  srcAttr = CLIENT_LOG_URL + '/' + logParams;
+                  new Image().src = SC_ANALYTICS_URL + srcAttr;
+                }
+                this.setAttribute('src', srcAttr);
+            },
+            get: function () {
+                return this.getAttribute('src');
+            }
+        });
+    }
+
+    //while throttling, the fallback approach is using post XMLHttpRequest
+    //However if it's not support, there's not fallback approach
+    //Changing the prototype of `send` in XMLHttpRequest
+    if (XMLHttpRequest) {
+        var _send = XMLHttpRequest.prototype.send;
+        XMLHttpRequest.prototype.send = function() {
+            var bodyArgs = arguments;
+            this.addEventListener('readystatechange', function () {
+                // For really old browsers we won't have this.responseURL. So there is not much we can do,
+                // just skip.
+                if (this.readyState == 4 && this.responseURL && this.responseURL.indexOf(CLIENT_LOG_URL) !== -1) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', SC_ANALYTICS_URL, true);
+                    xhr.withCredentials = true;
+                    xhr.setRequestHeader('Content-Type', 'text/plain');
+                    xhr.send(bodyArgs[0]);
+                }
+            }, false);
+            _send.apply(this, arguments);
+        }
+    }
+})();

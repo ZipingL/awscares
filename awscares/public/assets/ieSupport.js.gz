@@ -1,0 +1,7 @@
+(function() {
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var d = document, ms = d.createElement("style");
+    ms.appendChild(d.createTextNode("@-ms-viewport {width:auto !important;}"));
+    document.getElementsByTagName("head")[0].appendChild(ms);
+  }
+})();

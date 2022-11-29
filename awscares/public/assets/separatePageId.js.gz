@@ -1,0 +1,13 @@
+// Create global config since this config is used in multiple places on the page
+var SUPPORT_METRIC_CONFIG = {
+    pageId: 'landing'
+};
+
+if (AWSC && AWSC.Clog && AWSC.Clog.setPageId) {
+    // According to https://w.amazon.com/index.php/AWS/DeveloperResources/Console/CommunityGuide/ConsolePlatform/Mezzanine_Integration_Guide#Page-Specific_Metrics
+    // this won't reliably set the initial timer metrics but we are more concerned with the current
+    // JavaScript Error noise in the legacy application that could mask errors in the new one.
+    AWSC.Clog.setPageId(SUPPORT_METRIC_CONFIG.pageId);
+} else {
+    throw new Error('AWS metric logger not found.');
+}
