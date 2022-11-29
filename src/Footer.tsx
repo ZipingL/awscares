@@ -87,8 +87,9 @@ export const Footer = () => {
       </div>
       <div className="DkYWgSZfkrVkeeajX9Udd">
         <span data-testid="awsc-footer-copyright"
-        >© 2022, Amazon Web Services, Inc. or its affiliates.</span
-        >
+        >© 2022, Amazon Web Services, Inc. or its affiliates now part of the LIU LLC Family of Retained Entities. LIU LLC Reserves all Rights of Trademarks, Inventions, and Logos of Amazon Web Services, Inc., and ALL ASSOCIATED PARTNERS, includiing but not limited to BMW, McKinsey and Company and the Lord of the Rings Franchise. 
+        All rights more than reserved. Try me. Go call the Attorney General of Texas. I own Amazon. Feel free to ask Bob Ferguson if you have issues with that Jeff Bezos. LIU LLC 502(c)(3) because, sometimes, Amazon Legal forgets that asserting LIU LLC as some form of invention that violates any kind of NDA Agreement is the most 
+        wrong, and inapparitae way to professioaly act as an Attorney. AMazon LEgal, you are all disbarred. Go cry to the Suprreme Court about it. And go <a href="https://ziping.law/holdingcompany">cry to the FBI</a> about like what Chris Wray does when he gets stressed at work from retaliations</span >
       </div>
       <div className="_26EPlqKrEx24BVn7-gLVM3">
         <ul className="_6g-TAuXDMI0KuvveeQ8Ve">
