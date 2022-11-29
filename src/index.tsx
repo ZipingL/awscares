@@ -1,19 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Correspondence from './Correspondence';
 import Footer from './Footer';
-import './CorrespondenceMessages/body.css';
-import './CorrespondenceMessages/nav.css';
-import './CorrespondenceMessages/globalnav.css';
-import './CorrespondenceMessages/components.css';
-import './CorrespondenceMessages/containers.css';
-import './CorrespondenceMessages/decorative.css';
-import './CorrespondenceMessages/icons.css';
+import './CorrespondenceMessages/body.scss';
 
-import './CorrespondenceMessages/polaris-global-css.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById("header-div-wrap") as HTMLElement

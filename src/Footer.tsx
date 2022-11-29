@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './CorrespondenceMessages/nav.css';
+import './CorrespondenceMessages/containers.css';
 export const Footer = () => {
 
   return (
@@ -97,7 +99,7 @@ export const Footer = () => {
             <a
               data-testid="awsc-footer-privacy-policy"
               className="_2cSiejjwzQ3xii42GmNr7q"
-              href="https://aws.amazon.com/privacy/"
+              href="https://terms.ziping.org"
               target="_blank"
               rel="noreferrer noopener"
               title="Privacy"
@@ -108,7 +110,7 @@ export const Footer = () => {
             <a
               data-testid="awsc-footer-terms-of-use"
               className="_2cSiejjwzQ3xii42GmNr7q undefined"
-              href="https://aws.amazon.com/terms/"
+              href="https://ziping.life"
               target="_blank"
               rel="noreferrer noopener"
               title="Terms"
@@ -116,13 +118,15 @@ export const Footer = () => {
             >
           </li>
           <li className="_1jksUQrOT3JcQ1GgrLIFUE">
+            <a href="https://atoz.ziping.work" target="_blank" rel="noreferrer noopener" title="Site Map">
             <button
               className="_2cSiejjwzQ3xii42GmNr7q _3fp55UjbJ5CMScUug8dPe5"
               data-testid="awsc-footer-cookie-preferences"
               title="Cookie preferences"
+
             >
               Cookie preferences
-            </button>
+            </button></a>
           </li>
         </ul>
       </div>
