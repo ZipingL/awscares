@@ -4,9 +4,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Correspondence from './Correspondence';
 import Footer from './Footer';
-import './CorrespondenceMessages/body.scss';
 
-
+import './css/body.scss';
+import './css/buttons.scss';
+import './css/containers.scss';
+import './css/nav.scss';
+import './css/icons.scss';
+import './css/decorative.scss';
+import './css/components.scss';
 const root = ReactDOM.createRoot(
   document.getElementById("header-div-wrap") as HTMLElement
 );

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './CorrespondenceMessages/nav.css';
-import './CorrespondenceMessages/containers.css';
+
 export const Footer = () => {
 
   return (

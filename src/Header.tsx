@@ -1,6 +1,5 @@
 import React from 'react';
-import './CorrespondenceMessages/nav.css';
-import './CorrespondenceMessages/globalnav.css';
+
 
 export const Header = () => {
 

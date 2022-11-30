@@ -6,10 +6,19 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": "./src",
+    "paths": {
+      "css": [
+        "./src/css"
+      ]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "allowUmdGlobalAccess": true,
+    "declarationMap": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
@@ -22,6 +31,6 @@
   },
   "include": [
     "src",
-    "./src/CorrespondenceMessages/*.css"
+    "./src/css/*.scss"
   ]
 }
