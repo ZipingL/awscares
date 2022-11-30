@@ -1,3 +1,7 @@
+# [awscares.com](https://awscares.com) does anyone care to see a... 
+
+Normal support request going on that then suddenly became Amazon Legal and David Zapolsky's target of adverse actions and complete destruction in any kind of consumer protection standards expected from a cloud, because David is just that crazy. He wanted to kill Ziping that badly that he ultimately became the exact opposite of what Amazon allegedly strives for, which is its customer obsession: but it became an obsession of horrors. The april thread showcases a  normal day in the life of Ziping Liu and AWS Support, but when April's End came, Ziping was ultimately murdered by the FBI on May 20th. Remember? Ziping.life died. He was the first to die. The guy that wrote [stuff here](https://quora.com/profile/ziping-liu-5) he was the first to die. That's why that profile hasn't had any anwers written. The author is dead.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
